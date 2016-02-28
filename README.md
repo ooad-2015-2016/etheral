@@ -1,7 +1,7 @@
-# etheral
+﻿# etheral
 
-Clanovi tima:
-1. Medina Malisevic
-2. Ena Muratspahic
-3. Emina Omanovic
-4. Anja Miletic
+Članovi tima:
+1. Medina Mališević
+2. Ena Muratspahić
+3. Emina Omanović
+4. Anja Miletić
