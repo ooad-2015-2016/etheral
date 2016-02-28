@@ -1,4 +1,4 @@
-﻿# ethereal aka swagmeisters
+﻿# ethereal
 
 Članovi tima:
 
