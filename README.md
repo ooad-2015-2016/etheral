@@ -1,4 +1,4 @@
-﻿# etheral
+﻿# ethereal
 
 Članovi tima:
 1. Medina Mališević
