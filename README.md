@@ -42,7 +42,7 @@ Podaci za detaljni **pregled informacija o filmovima** se preuzimaju sa imdb.com
 - mogućnost otkazivanja rezervacije korištenjem jedinstvenog koda
 - zabrana korištenja aplikacije zlonamjernim korisnicima (hellban)
 - korištenje mail servisa za potvrdu rezervacije i slanje jedinstvenog koda
-- praćenje rezervacija za svakog korisnika u bazi podataka (jer nema korisničkih naloga
+- praćenje rezervacija za svakog korisnika u bazi podataka (jer nema korisničkih naloga)
 
 ##### Akteri:
 
