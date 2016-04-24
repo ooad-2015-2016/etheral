@@ -10,14 +10,14 @@ namespace KinoProjekat.Kino.Models
     enum TipZaposlenika { RadnikNaSalteru, AdministratorSistema};
     class Zaposlenik
     {
-        string imeZ, prezimeZ;
-        TipZaposlenika ulogaZ;
+        string ime, prezime;
+        TipZaposlenika uloga;
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int zaposenikId { get; set; }
-        public string ime { get; set; }
-        public string prezime { get; set; }
-        public TipZaposlenika uloga { get; set; }
+        public int ZaposenikId { get; set; }
+        public string Ime { get; set; }
+        public string Prezime { get; set; }
+        public TipZaposlenika Uloga { get; set; }
 
     }
 }
