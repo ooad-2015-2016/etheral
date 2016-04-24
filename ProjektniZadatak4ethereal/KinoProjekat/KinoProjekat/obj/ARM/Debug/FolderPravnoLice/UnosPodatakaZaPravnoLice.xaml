@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="ProjekatKino.FolderPravnoLice.UnosPodatakaZaPravnoLice"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjekatKino.FolderPravnoLice"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="SlateGray" Margin="0,234,0,0">
+        
+        <TextBlock x:ConnectionId='1' x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Unesite podatke o pravnom licu:" FontSize="20" Foreground="Purple" FontWeight="Bold"/>
+        <TextBlock x:ConnectionId='2' x:Name="textBlock2" HorizontalAlignment="Left" Margin="10,228,0,0" TextWrapping="Wrap" Text="Transakcijski račun:" Foreground="Purple" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock3" HorizontalAlignment="Left" TextWrapping="NoWrap" Text="Naziv pravnog lica:" VerticalAlignment="Top" Foreground="Purple" RenderTransformOrigin="1.634,4.65" Margin="10,71,0,0"                                                FontWeight="Bold"/>
+        <TextBlock x:ConnectionId='4' x:Name="textBlock4" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Adresa pravnog lica:" VerticalAlignment="Top" Foreground="Purple" Margin="10,148,0,0" FontWeight="Bold"/>
+        <TextBox x:ConnectionId='5' x:Name="textBox" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="159,59,0,0" Width="156"/>
+        <TextBox x:ConnectionId='6' x:Name="textBox_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="159,136,0,0" Width="156"/>
+        <TextBox x:ConnectionId='7' x:Name="textBox_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="159,216,0,0" Width="156"/>
+        <TextBlock x:ConnectionId='8' x:Name="textBlock1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Purple" FontWeight="Bold" Margin="10,309,0,0" FontStyle="Italic" FontFamily="Tempus Sans ITC" Height="60" Width="347" TextAlignment="Justify"                                                 >
+        	<Run Text="&quot;"/>
+        	<Run Text="Everything I learned I learned "/>
+        	<Run Text="   "/>
+        	<Run Text="from movies."/>
+        	<Run Text="&quot;"/>
+        	<Run Text=" "/>
+        	<LineBreak/>
+        	<Run Text="                        "/>
+        	<Run Text="Audrey Hepburn"/>
+        </TextBlock>
+        <Button x:ConnectionId='9' x:Name="button" Content="Dalje" Background="Purple" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,364,0,0" Width="100" FontWeight="Bold" Foreground="Silver"/>
+
+    </Grid>
+</Page>
+
