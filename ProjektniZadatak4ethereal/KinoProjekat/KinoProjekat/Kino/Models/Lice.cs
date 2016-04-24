@@ -10,11 +10,11 @@ namespace KinoProjekat.Kino.Models
     class Lice
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int LiceId { get; set; }//primary key u bazi
-        public string Ime { get; set; }//trebati ce za sihronizaciju kasnije
-        public string Prezime { get; set; }//naziv restorana
-        public string Telefon { get; set; }//tekst o restoranu
-        public string Email { get; set; }//broj telefona
+        public int LiceId { get; set; }
+        public string Ime { get; set; }
+        public string Prezime { get; set; }
+        public string Telefon { get; set; }
+        public string Email { get; set; }
         public string Adresa { get; set; }
     }
 }

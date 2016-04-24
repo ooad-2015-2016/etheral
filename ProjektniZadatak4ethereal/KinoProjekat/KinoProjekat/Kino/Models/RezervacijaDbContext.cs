@@ -10,9 +10,9 @@ using Windows.Storage;
 
 namespace KinoProjekat.Kino.Models
 {
-    class LiceDbContext : DbContext
+    class RezervacijaDbContext : DbContext
     {
-        public DbSet<Lice> SveLica { get; set; }
+        public DbSet<Rezervacija> SveRezervacije { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -27,9 +27,7 @@ namespace KinoProjekat.Kino.Models
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // jedno od polja je image da se zna šta je zapravo predstavlja byte[]
-            // modelBuilder.Entity<Restoran>().Property(p => p.Slika).HasColumnType("image");
+            // lel ništa
         }
     }
-
 }

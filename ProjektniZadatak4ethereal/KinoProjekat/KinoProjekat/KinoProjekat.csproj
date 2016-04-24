@@ -102,6 +102,8 @@
     <Compile Include="FolderPravnoLice\UnosPodatakaZaPravnoLice.xaml.cs" />
     <Compile Include="Kino\Models\Lice.cs" />
     <Compile Include="Kino\Models\LiceDbContext.cs" />
+    <Compile Include="Kino\Models\Rezervacija.cs" />
+    <Compile Include="Kino\Models\RezervacijaDbContext.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
