@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace KinoProjekat.Kino.Models
 {
@@ -12,11 +13,12 @@ namespace KinoProjekat.Kino.Models
 
     class Rezervacija
     {
-        private int brojRezervacije = 0;
+        int brojRezervacije = 0;
         NacinPlacanja placanje;
         StatusRezervacije status;
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key]
         public int BrojRezervacije { get; set; }
         public NacinPlacanja Placanje { get; set; }
         public StatusRezervacije Status { get; set; }

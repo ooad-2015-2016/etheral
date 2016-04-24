@@ -1,1 +1,1 @@
-C:\Users\samira\Desktop\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\KinoProjekat.csproj;x86
+C:\Users\Anya\Desktop\welp\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\KinoProjekat.csproj;x86

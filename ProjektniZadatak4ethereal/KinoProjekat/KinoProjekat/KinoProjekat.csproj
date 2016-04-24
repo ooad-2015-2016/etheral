@@ -116,7 +116,12 @@
     <Compile Include="Migrations\20160423221615_InitialMigration.designer.cs">
       <DependentUpon>20160423221615_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20160424233106_RezervacijaMigration.cs" />
+    <Compile Include="Migrations\20160424233106_RezervacijaMigration.designer.cs">
+      <DependentUpon>20160424233106_RezervacijaMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\LiceDbContextModelSnapshot.cs" />
+    <Compile Include="Migrations\RezervacijaDbContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
