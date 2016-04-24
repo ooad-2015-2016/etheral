@@ -107,6 +107,8 @@
     <Compile Include="Kino\Models\Rezervacija.cs" />
     <Compile Include="Kino\Models\RezervacijaDbContext.cs" />
     <Compile Include="Kino\Models\Termin.cs" />
+    <Compile Include="Kino\Models\Zaposlenik.cs" />
+    <Compile Include="Kino\Models\ZaposlenikDbContext.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
