@@ -13,8 +13,8 @@ namespace KinoProjekatMigrations
                 name: "Film",
                 columns: table => new
                 {
-                    FilmId = table.Column(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
+                    FilmId = table.Column(type: "INTEGER", nullable: false),
+                        //.Annotation("Sqlite:Autoincrement", true),
                     Link = table.Column(type: "TEXT", nullable: true),
                     Naziv = table.Column(type: "TEXT", nullable: true),
                     Reziser = table.Column(type: "TEXT", nullable: true),
@@ -29,8 +29,8 @@ namespace KinoProjekatMigrations
                 name: "Termin",
                 columns: table => new
                 {
-                    BrojTermina = table.Column(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
+                    BrojTermina = table.Column(type: "INTEGER", nullable: false),
+                        //.Annotation("Sqlite:Autoincrement", true),
                     FilmFilmId = table.Column(type: "INTEGER", nullable: true)
                 },
                 constraints: table =>
