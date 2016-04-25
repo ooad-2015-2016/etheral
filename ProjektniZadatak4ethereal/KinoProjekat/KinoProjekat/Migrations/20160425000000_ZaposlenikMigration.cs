@@ -13,8 +13,8 @@ namespace KinoProjekatMigrations
                 name: "Zaposlenik",
                 columns: table => new
                 {
-                    ZaposenikId = table.Column(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
+                    ZaposenikId = table.Column(type: "INTEGER", nullable: false),
+                        //.Annotation("Sqlite:Autoincrement", true),
                     Ime = table.Column(type: "TEXT", nullable: true),
                     Prezime = table.Column(type: "TEXT", nullable: true),
                     Uloga = table.Column(type: "INTEGER", nullable: false)

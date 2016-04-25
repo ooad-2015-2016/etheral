@@ -124,6 +124,11 @@
     <Compile Include="Migrations\20160425000000_ZaposlenikMigration.designer.cs">
       <DependentUpon>20160425000000_ZaposlenikMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20160425120630_FilmMigration.cs" />
+    <Compile Include="Migrations\20160425120630_FilmMigration.designer.cs">
+      <DependentUpon>20160425120630_FilmMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\FilmDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\LiceDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\RezervacijaDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\ZaposlenikDbContextModelSnapshot.cs" />
