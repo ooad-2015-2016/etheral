@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace KinoProjekat.Kino.Models
 {
@@ -14,6 +15,7 @@ namespace KinoProjekat.Kino.Models
         TipZaposlenika uloga;
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key]
         public int ZaposenikId { get; set; }
         public string Ime { get; set; }
         public string Prezime { get; set; }
