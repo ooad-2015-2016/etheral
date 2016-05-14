@@ -12,8 +12,16 @@ namespace KinoProjekat.Kino.Models
         bool zauzeta;
         int salaId;
 
+        public Sala(bool zauzeta)
+        {
+            this.zauzeta = zauzeta;
+        }
+
+        public Sala(){}
+
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int SalaId { get; set; }
         public bool Zauzeta { get; set; }     
+
     }
 }

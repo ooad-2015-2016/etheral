@@ -9,6 +9,17 @@ namespace KinoProjekat.Kino.Models
 {
     class Lice
     {
+        public Lice(string ime, string prezime, string telefon, string email, string adresa)
+        {
+            Ime = ime;
+            Prezime = prezime;
+            Telefon = telefon;
+            Email = email;
+            Adresa = adresa;
+        }
+
+        public Lice() {}
+
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int LiceId { get; set; }
         public string Ime { get; set; }
@@ -17,6 +28,5 @@ namespace KinoProjekat.Kino.Models
         public string Email { get; set; }
         public string Adresa { get; set; }
 
-        bool getZauzeta()
     }
 }

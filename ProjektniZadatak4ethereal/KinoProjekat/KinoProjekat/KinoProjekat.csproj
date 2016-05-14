@@ -102,13 +102,25 @@
     <Compile Include="FolderPravnoLice\UnosPodatakaZaPravnoLice.xaml.cs" />
     <Compile Include="Kino\Models\Film.cs" />
     <Compile Include="Kino\Models\FilmDbContext.cs" />
+    <Compile Include="Kino\Models\Firma.cs" />
+    <Compile Include="Kino\Models\FirmaDbContext.cs" />
+    <Compile Include="Kino\Models\FizickoLice.cs" />
+    <Compile Include="Kino\Models\FizickoLiceDbContext.cs" />
     <Compile Include="Kino\Models\Lice.cs" />
     <Compile Include="Kino\Models\LiceDbContext.cs" />
+    <Compile Include="Kino\Models\MalaSala.cs" />
+    <Compile Include="Kino\Models\MalaSalaDbContext.cs" />
+    <Compile Include="Kino\Models\PravnoLice.cs" />
+    <Compile Include="Kino\Models\PravnoLiceDbContext.cs" />
     <Compile Include="Kino\Models\Rezervacija.cs" />
     <Compile Include="Kino\Models\RezervacijaDbContext.cs" />
     <Compile Include="Kino\Models\Sala.cs" />
     <Compile Include="Kino\Models\SalaDbContext.cs" />
+    <Compile Include="Kino\Models\SrednjaSala.cs" />
+    <Compile Include="Kino\Models\SrednjaSalaDbContext.cs" />
     <Compile Include="Kino\Models\Termin.cs" />
+    <Compile Include="Kino\Models\VelikaSala.cs" />
+    <Compile Include="Kino\Models\VelikaSalaDbContext.cs" />
     <Compile Include="Kino\Models\Zaposlenik.cs" />
     <Compile Include="Kino\Models\ZaposlenikDbContext.cs" />
     <Compile Include="MainPage.xaml.cs">
@@ -130,9 +142,19 @@
     <Compile Include="Migrations\20160425120630_FilmMigration.designer.cs">
       <DependentUpon>20160425120630_FilmMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20160514131708_Firma.cs" />
+    <Compile Include="Migrations\20160514131708_Firma.designer.cs">
+      <DependentUpon>20160514131708_Firma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\FirmaDbContextModelSnapshot.cs" />
+    <Compile Include="Migrations\SalaMigration.cs" />
+    <Compile Include="Migrations\SalaMigration.designer.cs">
+      <DependentUpon>SalaMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\FilmDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\LiceDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\RezervacijaDbContextModelSnapshot.cs" />
+    <Compile Include="Migrations\SalaDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\ZaposlenikDbContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
