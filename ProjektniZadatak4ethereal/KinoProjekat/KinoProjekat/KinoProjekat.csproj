@@ -106,6 +106,8 @@
     <Compile Include="Kino\Models\LiceDbContext.cs" />
     <Compile Include="Kino\Models\Rezervacija.cs" />
     <Compile Include="Kino\Models\RezervacijaDbContext.cs" />
+    <Compile Include="Kino\Models\Sala.cs" />
+    <Compile Include="Kino\Models\SalaDbContext.cs" />
     <Compile Include="Kino\Models\Termin.cs" />
     <Compile Include="Kino\Models\Zaposlenik.cs" />
     <Compile Include="Kino\Models\ZaposlenikDbContext.cs" />

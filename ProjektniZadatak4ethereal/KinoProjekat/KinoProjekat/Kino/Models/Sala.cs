@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -8,11 +7,13 @@ using System.Threading.Tasks;
 
 namespace KinoProjekat.Kino.Models
 {
-    class Termin
+    class Sala
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Key]
-        public int BrojTermina { get; set; }
+        bool zauzeta;
+        int salaId;
 
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int SalaId { get; set; }
+        public bool Zauzeta { get; set; }     
     }
 }

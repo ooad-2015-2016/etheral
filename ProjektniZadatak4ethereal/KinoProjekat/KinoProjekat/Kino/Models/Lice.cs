@@ -16,5 +16,7 @@ namespace KinoProjekat.Kino.Models
         public string Telefon { get; set; }
         public string Email { get; set; }
         public string Adresa { get; set; }
+
+        bool getZauzeta()
     }
 }
