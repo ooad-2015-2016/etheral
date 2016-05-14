@@ -25,5 +25,11 @@ namespace KinoProjekat.Kino.Models
         public int SrednjaSalaId { get; set; }
         public List<List<bool>> Mjesta { get; set; }
         public int SlobodnaMjesta { get; set; }
+
+        public bool zauzmi(List<Tuple<int, int>> matrica)
+        {
+
+            return true;
+        }
     }
 }

@@ -9,9 +9,9 @@ using Windows.Storage;
 
 namespace KinoProjekat.Kino.Models
 {
-    class FilmDbContext: DbContext
+    class TerminDbContext : DbContext
     {
-        public DbSet<Film> SviFilmovi { get; set; }
+        public DbSet<Termin> SviTermini { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -29,4 +29,5 @@ namespace KinoProjekat.Kino.Models
             // 
         }
     }
+}
 }

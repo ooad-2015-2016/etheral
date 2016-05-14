@@ -119,6 +119,7 @@
     <Compile Include="Kino\Models\SrednjaSala.cs" />
     <Compile Include="Kino\Models\SrednjaSalaDbContext.cs" />
     <Compile Include="Kino\Models\Termin.cs" />
+    <Compile Include="Kino\Models\TerminDbContext.cs" />
     <Compile Include="Kino\Models\VelikaSala.cs" />
     <Compile Include="Kino\Models\VelikaSalaDbContext.cs" />
     <Compile Include="Kino\Models\Zaposlenik.cs" />

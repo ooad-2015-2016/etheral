@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace KinoProjekat.Kino.Models
 {
-    class Sala
+    abstract class Sala
     {
         bool zauzeta;
         int salaId;
@@ -23,5 +23,6 @@ namespace KinoProjekat.Kino.Models
         public int SalaId { get; set; }
         public bool Zauzeta { get; set; }     
 
+        
     }
 }
