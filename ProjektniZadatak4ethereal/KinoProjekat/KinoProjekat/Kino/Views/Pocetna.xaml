@@ -19,7 +19,7 @@
                 <StackPanel  RelativePanel.Below="textBlockAutori" Margin="0,20,0,0" Width="640">
                     <TextBlock x:Name="textBlockOpis1" Text="Dobrodošli u svijet rezervacije i kupovine karata!"
                        RelativePanel.Below="textBlockAutori" Foreground="Honeydew"  FontFamily="DengXian" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" />
-                    <TextBlock x:Name="textBlockOpis2" Text="Rezervišite ulaznice za najnovije filmske hitove"
+                    <TextBlock x:Name="textBlockOpis2" Text="Rezervišite karte za najnovije filmske hitove"
                        RelativePanel.Below="textBlockOpis1" FontFamily="DengXian" Foreground="AntiqueWhite" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" />
                     <TextBlock x:Name="textBlockOpis3" Text="ili čak iznajmite čitavu salu." Foreground="AntiqueWhite"  HorizontalAlignment="Center" FontSize="24" FontFamily="DengXian"/>
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
