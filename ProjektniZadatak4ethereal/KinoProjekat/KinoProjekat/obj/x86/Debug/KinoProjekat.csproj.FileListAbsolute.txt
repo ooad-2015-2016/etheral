@@ -1862,3 +1862,13 @@ C:\Users\User\Desktop\Novina\ethereal\ProjektniZadatak4ethereal\KinoProjekat\Kin
 C:\Users\User\Desktop\Novina\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\User\Desktop\Novina\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\User\Desktop\Novina\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Kino\Views\Pocetna.xbf
+C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Pocetna.g.i.cs
+C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Pocetna.g.cs
+C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Pocetna.xaml
+C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Pocetna.xbf
+C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Kino\Views\UnosPodatakaZaPravnoLice.xbf
+C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\UnosPodatakaZaPravnoLice.g.i.cs
+C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\UnosPodatakaZaPravnoLice.g.cs
+C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\UnosPodatakaZaPravnoLice.xaml
+C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\UnosPodatakaZaPravnoLice.xbf

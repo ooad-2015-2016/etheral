@@ -1,0 +1,81 @@
+﻿<Page
+    x:Class="KinoProjekat.Kino.Views.UnosPodatakaZaPravnoLice"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KinoProjekat.Kino.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" >
+        <TextBlock x:Name="textBlockGrupa1" Text="Pravno lice" FontSize="24" Margin="20,0,0,0" />
+        <Grid Margin="20,0,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="145*" />
+                <ColumnDefinition Width="158*" />
+                <ColumnDefinition Width="37*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Border BorderBrush="Bisque" Grid.ColumnSpan="2" Grid.RowSpan="3" Opacity="1" >
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Color="#FFFDF0DF"  Offset="0.0" />
+                        <GradientStop Color="BlanchedAlmond"  Offset="0.5" />
+                        <GradientStop Color="#FFE8CBA6" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+            <TextBlock x:Name="textBlockNaziv" Text="Naziv pravnog lica*:" FontSize="15" VerticalAlignment="Center" Height="20" Margin="0,11" />
+            <TextBlock x:Name="textBlockAdresaPravnog" Text="Adresa pravnog lica:" FontSize="15" Grid.Row="1" VerticalAlignment="Center" Height="20" Margin="0,11" />
+            <TextBlock x:Name="textBlockRacun" Text="Transakcijski račun:" FontSize="15" Grid.Row="2" VerticalAlignment="Center" Height="20" Margin="0,11"/>
+            <TextBox x:Name="textBoxNaziv" Grid.Column="1" Margin="0,0,0,10" />
+            <TextBox x:Name="textBoxAdresaPravnog" Grid.Column="1" Grid.Row="1" Margin="0,0,0,10" />
+            <TextBox x:Name="textBoxRacun" Grid.Column="1" Grid.Row="2" Margin="0,0,0,10" />
+        </Grid>
+        <TextBlock x:Name="textBlockGrupa2" Text="Osoba koja zastupa pravno lice" FontSize="24" Margin="20,20,0,0" />
+        <Grid Margin="20,0,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="123*" />
+                <ColumnDefinition Width="71*" />
+                <ColumnDefinition Width="109*"/>
+                <ColumnDefinition Width="37*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Border BorderBrush="Bisque" Grid.ColumnSpan="3" Grid.RowSpan="6">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Color="BlanchedAlmond"  Offset="0.0" />
+                        <GradientStop Color="#FFF0D7BA"  Offset="0.5" />
+                        <GradientStop Color="BurlyWood" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+            <TextBlock x:Name="textBlockIme" Text="Ime*:" FontSize="15" VerticalAlignment="Center" Margin="0,11" Height="20"/>
+            <TextBlock x:Name="textBlockPrezime" Text="Prezime*:" FontSize="15" Grid.Row="1" VerticalAlignment="Center" Margin="0,11" Height="20" />
+            <TextBlock x:Name="textBlockBrojLicne" Text="Broj lične karte*:" FontSize="15" Grid.Row="2" VerticalAlignment="Center" Margin="0,11" Height="20"/>
+            <TextBlock x:Name="textBlockEmail" Text="E-mail*:" FontSize="15" VerticalAlignment="Center" Grid.Row="3" Margin="0,11" Height="20"/>
+            <TextBlock x:Name="textBlockPotvrdaEmail" Text="Potvrdite e-mail*:" FontSize="15" Grid.Row="4" VerticalAlignment="Center" Margin="0,11" Height="20" />
+            <TextBlock x:Name="textBlockTelefon" Text="Broj telefona*:" FontSize="15" Grid.Row="5" VerticalAlignment="Center" Margin="0,11" Height="20"/>
+            <TextBox x:Name="textBoxIme" Margin="0,0,0,10" Grid.ColumnSpan="2" Grid.Column="1" />
+            <TextBox x:Name="textBoxPrezime" Grid.Row="1" Margin="0,0,0,10" Grid.ColumnSpan="2" Grid.Column="1" />
+            <TextBox x:Name="textBoxBrojLicne" Grid.Row="2" Margin="0,0,0,10" Grid.ColumnSpan="2" Grid.Column="1" />
+            <TextBox x:Name="textBoxEmail" Margin="0,0,0,10" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="1" />
+            <TextBox x:Name="textBoxPotvrdaEmail" Grid.Row="4" Margin="0,0,0,10" Grid.ColumnSpan="2" Grid.Column="1" />
+            <TextBox x:Name="textBoxTelefon" Grid.Row="5" Margin="0,0,0,10" Grid.ColumnSpan="2" Grid.Column="1" />
+        </Grid>
+        <TextBlock Text="Napomena:" Margin="20,20,0,0" FontSize="15" FontWeight="Bold" />
+        <TextBlock Text="Polja označena zvjezdicom (*) su obavezna za unos." Margin="20,0,0,0" FontSize="15" FontWeight="SemiBold" />
+        <Button x:Name="buttonName" FontFamily="Segoe MDL2 Assets" Content="&#xEA62;" HorizontalAlignment="Right" Margin="0,0,20,0" Width="90" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" FontSize="20" BorderBrush="LightGray" />
+    </StackPanel>
+</Page>
