@@ -1290,7 +1290,6 @@ C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\Ki
 C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\System.Xml.XDocument.dll
 C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\System.Xml.XmlDocument.dll
 C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\System.Xml.XmlSerializer.dll
-C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\KinoProjekat.csprojResolveAssemblyReference.cache
 C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\App.g.i.cs
 C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\App.g.cs
 C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\FolderPravnoLice\UnosPodatakaOOsobiKojaZastupaPravnoLice.g.i.cs

@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="KinoProjekat.Kino.Views.Pocetna"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KinoProjekat.Kino.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Image Source="/Assets/pocetna.jpg" Height="Auto" Width="Auto" Stretch="UniformToFill" Grid.ColumnSpan="2" />
+            <RelativePanel Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0, 80, 0, 0" Width="640" Height="Auto">
+                <TextBlock x:ConnectionId='1' x:Name="textBlockNaslov" Text="Multiplex Sveg" FontSize="46"  Foreground="AntiqueWhite"  FontFamily="DengXian"  FontWeight="Bold" RelativePanel.AlignHorizontalCenterWithPanel="True" FontStretch="UltraExpanded" />
+                <TextBlock x:ConnectionId='2' x:Name="textBlockAutori" Text="by ethereal" Foreground="Beige" FontSize="34" RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="textBlockNaslov" FontFamily="Segoe Print"/>
+                <StackPanel  RelativePanel.Below="textBlockAutori" Margin="0,20,0,0" Width="640">
+                    <TextBlock x:ConnectionId='3' x:Name="textBlockOpis1" Text="Dobrodošli u svijet rezervacije i kupovine karata!"
+                       RelativePanel.Below="textBlockAutori" Foreground="Honeydew"  FontFamily="DengXian" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" />
+                    <TextBlock x:ConnectionId='4' x:Name="textBlockOpis2" Text="Rezervišite karte za najnovije filmske hitove"
+                       RelativePanel.Below="textBlockOpis1" FontFamily="DengXian" Foreground="AntiqueWhite" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" />
+                    <TextBlock x:ConnectionId='5' x:Name="textBlockOpis3" Text="ili čak iznajmite čitavu salu." Foreground="AntiqueWhite"  HorizontalAlignment="Center" FontSize="24" FontFamily="DengXian"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button x:ConnectionId='7' x:Name="buttonRezervacija" Content="Rezerviši" Foreground="AntiqueWhite" HorizontalAlignment="Right" VerticalAlignment="Center" FontFamily="DengXian" FontSize="20" Margin="0,20,50,0" FontWeight="Bold" />
+                    <Button x:ConnectionId='8' x:Name="buttonOtkazi" Content="Otkaži" Foreground="AntiqueWhite" HorizontalAlignment="Left"  VerticalAlignment="Center" FontFamily="DengXian" FontSize="20" Margin="50,20,0,0" FontWeight="Bold" Grid.Column="1"/>
+                    </StackPanel>
+                <Button x:ConnectionId='6' x:Name="buttonRepertoar" Content="Repertoar" Foreground="AntiqueWhite" FontFamily="DengXian" FontSize="20" HorizontalAlignment="Center" Margin="0,10,0,0" FontWeight="Bold" />
+            </StackPanel>
+            </RelativePanel>
+
+        </Grid>
+</Page>
+
