@@ -3,6 +3,15 @@
   "version": 2,
   "targets": {
     "UAP,Version=v10.0": {
+      "Callisto/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcore451/Callisto.dll": {}
+        },
+        "runtime": {
+          "lib/netcore451/Callisto.dll": {}
+        }
+      },
       "EntityFramework.Commands/7.0.0-beta6": {
         "type": "package",
         "dependencies": {
@@ -2261,6 +2270,15 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
+      "Callisto/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcore451/Callisto.dll": {}
+        },
+        "runtime": {
+          "lib/netcore451/Callisto.dll": {}
+        }
+      },
       "EntityFramework.Commands/7.0.0-beta6": {
         "type": "package",
         "dependencies": {
@@ -4357,6 +4375,15 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
+      "Callisto/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcore451/Callisto.dll": {}
+        },
+        "runtime": {
+          "lib/netcore451/Callisto.dll": {}
+        }
+      },
       "EntityFramework.Commands/7.0.0-beta6": {
         "type": "package",
         "dependencies": {
@@ -6416,6 +6443,15 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
+      "Callisto/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcore451/Callisto.dll": {}
+        },
+        "runtime": {
+          "lib/netcore451/Callisto.dll": {}
+        }
+      },
       "EntityFramework.Commands/7.0.0-beta6": {
         "type": "package",
         "dependencies": {
@@ -8519,6 +8555,15 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
+      "Callisto/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcore451/Callisto.dll": {}
+        },
+        "runtime": {
+          "lib/netcore451/Callisto.dll": {}
+        }
+      },
       "EntityFramework.Commands/7.0.0-beta6": {
         "type": "package",
         "dependencies": {
@@ -10578,6 +10623,15 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
+      "Callisto/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcore451/Callisto.dll": {}
+        },
+        "runtime": {
+          "lib/netcore451/Callisto.dll": {}
+        }
+      },
       "EntityFramework.Commands/7.0.0-beta6": {
         "type": "package",
         "dependencies": {
@@ -12681,6 +12735,15 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
+      "Callisto/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcore451/Callisto.dll": {}
+        },
+        "runtime": {
+          "lib/netcore451/Callisto.dll": {}
+        }
+      },
       "EntityFramework.Commands/7.0.0-beta6": {
         "type": "package",
         "dependencies": {
@@ -14741,6 +14804,17 @@
     }
   },
   "libraries": {
+    "Callisto/1.4.0": {
+      "sha512": "q2oErc+4l2MdiZu9h9YmEIQrZCC/I2o1t2gMNuLU36JDG6HDcy/oh98xvJ9s84hMuX5oBR8whEx78INUhvbBfg==",
+      "type": "package",
+      "files": [
+        "Callisto.1.4.0.nupkg.sha512",
+        "Callisto.nuspec",
+        "lib/netcore451/Callisto.dll",
+        "lib/netcore451/Callisto.pri",
+        "lib/netcore451/Callisto/Themes/Generic.xbf"
+      ]
+    },
     "EntityFramework.Commands/7.0.0-beta6": {
       "sha512": "dA1n8i0OdiPm73ev6WmgmoVr9jJSJ1tOW+m6W8iMFmnUydpLhZrV6pbyMHUkr1OQUJztz3jIOMsAJHSsESge+w==",
       "type": "Package",
@@ -14864,7 +14938,7 @@
       ]
     },
     "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
-      "sha512": "fNCAjIwvbTV+G0dT14bgM5tptsqeSaKQaCrlq7QknOq1Xdm8ZmgsDYddMgXkvykyKLjWyU6fKuOpj6fsQJy+wQ==",
+      "sha512": "NvBQnFeiFd0O1QdBz06UGApD7zn7ztVi7qO18IsM3EjiXRNgfrEBXB+azNm8XqLY8xGFAqh3HAuSd/wHZMe0XA==",
       "type": "package",
       "files": [
         "Microsoft.ApplicationInsights.WindowsApps.1.0.0.nupkg.sha512",
@@ -18475,6 +18549,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
+      "Callisto >= 1.4.0",
       "EntityFramework.Commands >= 7.0.0-beta6",
       "EntityFramework.SQLite >= 7.0.0-beta6",
       "Microsoft.ApplicationInsights >= 1.0.0",

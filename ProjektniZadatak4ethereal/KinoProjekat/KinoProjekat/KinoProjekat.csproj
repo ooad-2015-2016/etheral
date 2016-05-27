@@ -124,6 +124,11 @@
     <Compile Include="Kino\Models\VelikaSalaDbContext.cs" />
     <Compile Include="Kino\Models\Zaposlenik.cs" />
     <Compile Include="Kino\Models\ZaposlenikDbContext.cs" />
+    <Compile Include="Kino\Views\Film.cs" />
+    <Compile Include="Kino\Views\MyFlipViewItem.cs" />
+    <Compile Include="Kino\Views\OdabirFilma.xaml.cs">
+      <DependentUpon>OdabirFilma.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Kino\Views\Pocetna.xaml.cs">
       <DependentUpon>Pocetna.xaml</DependentUpon>
     </Compile>
@@ -172,6 +177,11 @@
     <None Include="KinoProjekat_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\angryBirds.jpg" />
+    <Content Include="Assets\angryBirds1.jpg" />
+    <Content Include="Assets\captainAmerica.jpg" />
+    <Content Include="Assets\mothersDay.jpg" />
+    <Content Include="Assets\ourKindOfTraitor.jpg" />
     <Content Include="Assets\pocetna.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -194,6 +204,10 @@
     <Page Include="FolderPravnoLice\UnosPodatakaZaPravnoLice.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Kino\Views\OdabirFilma.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Kino\Views\Pocetna.xaml">
       <SubType>Designer</SubType>
