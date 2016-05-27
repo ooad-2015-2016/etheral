@@ -156,7 +156,7 @@ namespace KinoProjekat.KinoProjekat_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[15];
+            _typeNameTable = new string[17];
             _typeNameTable[0] = "ProjekatKino.FolderPravnoLice.UnosPodatakaOLicuKojeZastupaPravnoLice";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -167,13 +167,15 @@ namespace KinoProjekat.KinoProjekat_XamlTypeInfo
             _typeNameTable[7] = "Windows.UI.Xaml.Controls.ItemsControl";
             _typeNameTable[8] = "Windows.UI.Xaml.Controls.FlipView";
             _typeNameTable[9] = "KinoProjekat.Kino.Views.OdabirFilma";
-            _typeNameTable[10] = "KinoProjekat.Kino.Views.Pocetna";
-            _typeNameTable[11] = "KinoProjekat.Kino.Views.Sala";
-            _typeNameTable[12] = "KinoProjekat.Kino.Views.UnosPodatakaZaFizickoLice";
-            _typeNameTable[13] = "KinoProjekat.Kino.Views.UnosPodatakaZaPravnoLice";
-            _typeNameTable[14] = "KinoProjekat.MainPage";
+            _typeNameTable[10] = "KinoProjekat.Kino.Views.Otkazivanje";
+            _typeNameTable[11] = "KinoProjekat.Kino.Views.Pocetna";
+            _typeNameTable[12] = "KinoProjekat.Kino.Views.Sala";
+            _typeNameTable[13] = "KinoProjekat.Kino.Views.UnosPodatakaZaFizickoLice";
+            _typeNameTable[14] = "KinoProjekat.Kino.Views.UnosPodatakaZaPravnoLice";
+            _typeNameTable[15] = "KinoProjekat.Kino.Views.ZavrsnaForma";
+            _typeNameTable[16] = "KinoProjekat.MainPage";
 
-            _typeTable = new global::System.Type[15];
+            _typeTable = new global::System.Type[17];
             _typeTable[0] = typeof(global::ProjekatKino.FolderPravnoLice.UnosPodatakaOLicuKojeZastupaPravnoLice);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -184,11 +186,13 @@ namespace KinoProjekat.KinoProjekat_XamlTypeInfo
             _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.ItemsControl);
             _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.FlipView);
             _typeTable[9] = typeof(global::KinoProjekat.Kino.Views.OdabirFilma);
-            _typeTable[10] = typeof(global::KinoProjekat.Kino.Views.Pocetna);
-            _typeTable[11] = typeof(global::KinoProjekat.Kino.Views.Sala);
-            _typeTable[12] = typeof(global::KinoProjekat.Kino.Views.UnosPodatakaZaFizickoLice);
-            _typeTable[13] = typeof(global::KinoProjekat.Kino.Views.UnosPodatakaZaPravnoLice);
-            _typeTable[14] = typeof(global::KinoProjekat.MainPage);
+            _typeTable[10] = typeof(global::KinoProjekat.Kino.Views.Otkazivanje);
+            _typeTable[11] = typeof(global::KinoProjekat.Kino.Views.Pocetna);
+            _typeTable[12] = typeof(global::KinoProjekat.Kino.Views.Sala);
+            _typeTable[13] = typeof(global::KinoProjekat.Kino.Views.UnosPodatakaZaFizickoLice);
+            _typeTable[14] = typeof(global::KinoProjekat.Kino.Views.UnosPodatakaZaPravnoLice);
+            _typeTable[15] = typeof(global::KinoProjekat.Kino.Views.ZavrsnaForma);
+            _typeTable[16] = typeof(global::KinoProjekat.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -228,11 +232,13 @@ namespace KinoProjekat.KinoProjekat_XamlTypeInfo
         private object Activate_4_Detalji() { return new global::KinoProjekat.Kino.Views.Detalji(); }
         private object Activate_5_FlipViewIndicator() { return new global::Callisto.Controls.FlipViewIndicator(); }
         private object Activate_9_OdabirFilma() { return new global::KinoProjekat.Kino.Views.OdabirFilma(); }
-        private object Activate_10_Pocetna() { return new global::KinoProjekat.Kino.Views.Pocetna(); }
-        private object Activate_11_Sala() { return new global::KinoProjekat.Kino.Views.Sala(); }
-        private object Activate_12_UnosPodatakaZaFizickoLice() { return new global::KinoProjekat.Kino.Views.UnosPodatakaZaFizickoLice(); }
-        private object Activate_13_UnosPodatakaZaPravnoLice() { return new global::KinoProjekat.Kino.Views.UnosPodatakaZaPravnoLice(); }
-        private object Activate_14_MainPage() { return new global::KinoProjekat.MainPage(); }
+        private object Activate_10_Otkazivanje() { return new global::KinoProjekat.Kino.Views.Otkazivanje(); }
+        private object Activate_11_Pocetna() { return new global::KinoProjekat.Kino.Views.Pocetna(); }
+        private object Activate_12_Sala() { return new global::KinoProjekat.Kino.Views.Sala(); }
+        private object Activate_13_UnosPodatakaZaFizickoLice() { return new global::KinoProjekat.Kino.Views.UnosPodatakaZaFizickoLice(); }
+        private object Activate_14_UnosPodatakaZaPravnoLice() { return new global::KinoProjekat.Kino.Views.UnosPodatakaZaPravnoLice(); }
+        private object Activate_15_ZavrsnaForma() { return new global::KinoProjekat.Kino.Views.ZavrsnaForma(); }
+        private object Activate_16_MainPage() { return new global::KinoProjekat.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -299,37 +305,51 @@ namespace KinoProjekat.KinoProjekat_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 10:   //  KinoProjekat.Kino.Views.Pocetna
+            case 10:   //  KinoProjekat.Kino.Views.Otkazivanje
                 userType = new global::KinoProjekat.KinoProjekat_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_Pocetna;
+                userType.Activator = Activate_10_Otkazivanje;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 11:   //  KinoProjekat.Kino.Views.Sala
+            case 11:   //  KinoProjekat.Kino.Views.Pocetna
                 userType = new global::KinoProjekat.KinoProjekat_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_Sala;
+                userType.Activator = Activate_11_Pocetna;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 12:   //  KinoProjekat.Kino.Views.UnosPodatakaZaFizickoLice
+            case 12:   //  KinoProjekat.Kino.Views.Sala
                 userType = new global::KinoProjekat.KinoProjekat_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_12_UnosPodatakaZaFizickoLice;
+                userType.Activator = Activate_12_Sala;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 13:   //  KinoProjekat.Kino.Views.UnosPodatakaZaPravnoLice
+            case 13:   //  KinoProjekat.Kino.Views.UnosPodatakaZaFizickoLice
                 userType = new global::KinoProjekat.KinoProjekat_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_UnosPodatakaZaPravnoLice;
+                userType.Activator = Activate_13_UnosPodatakaZaFizickoLice;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 14:   //  KinoProjekat.MainPage
+            case 14:   //  KinoProjekat.Kino.Views.UnosPodatakaZaPravnoLice
                 userType = new global::KinoProjekat.KinoProjekat_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_MainPage;
+                userType.Activator = Activate_14_UnosPodatakaZaPravnoLice;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 15:   //  KinoProjekat.Kino.Views.ZavrsnaForma
+                userType = new global::KinoProjekat.KinoProjekat_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_15_ZavrsnaForma;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 16:   //  KinoProjekat.MainPage
+                userType = new global::KinoProjekat.KinoProjekat_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_16_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

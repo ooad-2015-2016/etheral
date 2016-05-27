@@ -34,7 +34,7 @@ namespace KinoProjekat.Kino.Views
 
         private void buttonOtkazi_Click(object sender, RoutedEventArgs e)
         {
-            //this.Frame.Navigate(typeof(OdabirFilma));
+            this.Frame.Navigate(typeof(Otkazivanje));
         }
 
         private void buttonRepertoar_Click(object sender, RoutedEventArgs e)

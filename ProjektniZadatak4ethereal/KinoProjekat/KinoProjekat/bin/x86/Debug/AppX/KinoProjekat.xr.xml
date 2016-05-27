@@ -55,6 +55,9 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Background" />
+      <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
@@ -69,6 +72,7 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Visibility" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Documents.Run">
@@ -89,10 +93,10 @@
       <RootProperty Name="Opacity" />
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
       <RootProperty Name="CornerRadius" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="BorderBrush" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
@@ -109,6 +113,7 @@
       <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Background" />
+      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.WebView">
       <RootProperty Name="Source" />
@@ -182,6 +187,12 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="KinoProjekat.Kino.Views.OdabirFilma" />
+    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
+      <RootProperty Name="ImageSource" />
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="AlignmentX" />
+    </RootType>
+    <RootType FullName="KinoProjekat.Kino.Views.Otkazivanje" />
     <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
@@ -199,6 +210,7 @@
     <RootType FullName="KinoProjekat.Kino.Views.Sala" />
     <RootType FullName="KinoProjekat.Kino.Views.UnosPodatakaZaFizickoLice" />
     <RootType FullName="KinoProjekat.Kino.Views.UnosPodatakaZaPravnoLice" />
+    <RootType FullName="KinoProjekat.Kino.Views.ZavrsnaForma" />
     <RootType FullName="KinoProjekat.MainPage" />
   </Roots.RootTypes>
 </Roots>

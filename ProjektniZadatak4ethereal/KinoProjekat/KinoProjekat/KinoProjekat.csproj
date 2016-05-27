@@ -132,6 +132,9 @@
     <Compile Include="Kino\Views\OdabirFilma.xaml.cs">
       <DependentUpon>OdabirFilma.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Kino\Views\Otkazivanje.xaml.cs">
+      <DependentUpon>Otkazivanje.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Kino\Views\Pocetna.xaml.cs">
       <DependentUpon>Pocetna.xaml</DependentUpon>
     </Compile>
@@ -143,6 +146,9 @@
     </Compile>
     <Compile Include="Kino\Views\UnosPodatakaZaPravnoLice.xaml.cs">
       <DependentUpon>UnosPodatakaZaPravnoLice.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kino\Views\ZavrsnaForma.xaml.cs">
+      <DependentUpon>ZavrsnaForma.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -189,6 +195,7 @@
     <Content Include="Assets\angryBirds.jpg" />
     <Content Include="Assets\angryBirds1.jpg" />
     <Content Include="Assets\captainAmerica.jpg" />
+    <Content Include="Assets\jpeg.jpg" />
     <Content Include="Assets\mothersDay.jpg" />
     <Content Include="Assets\ourKindOfTraitor.jpg" />
     <Content Include="Assets\pocetna.jpg" />
@@ -222,6 +229,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Kino\Views\Otkazivanje.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Kino\Views\Pocetna.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -235,6 +246,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Kino\Views\UnosPodatakaZaPravnoLice.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kino\Views\ZavrsnaForma.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
