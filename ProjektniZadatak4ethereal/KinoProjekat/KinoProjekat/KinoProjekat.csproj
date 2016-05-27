@@ -124,6 +124,9 @@
     <Compile Include="Kino\Models\VelikaSalaDbContext.cs" />
     <Compile Include="Kino\Models\Zaposlenik.cs" />
     <Compile Include="Kino\Models\ZaposlenikDbContext.cs" />
+    <Compile Include="Kino\Views\Detalji.xaml.cs">
+      <DependentUpon>Detalji.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Kino\Views\Film.cs" />
     <Compile Include="Kino\Views\MyFlipViewItem.cs" />
     <Compile Include="Kino\Views\OdabirFilma.xaml.cs">
@@ -204,6 +207,10 @@
     <Page Include="FolderPravnoLice\UnosPodatakaZaPravnoLice.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Kino\Views\Detalji.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Kino\Views\OdabirFilma.xaml">
       <SubType>Designer</SubType>
