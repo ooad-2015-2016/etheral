@@ -138,6 +138,9 @@
     <Compile Include="Kino\Views\Sala.xaml.cs">
       <DependentUpon>Sala.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Kino\Views\UnosPodatakaZaFizickoLice.xaml.cs">
+      <DependentUpon>UnosPodatakaZaFizickoLice.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Kino\Views\UnosPodatakaZaPravnoLice.xaml.cs">
       <DependentUpon>UnosPodatakaZaPravnoLice.xaml</DependentUpon>
     </Compile>
@@ -224,6 +227,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Kino\Views\Sala.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kino\Views\UnosPodatakaZaFizickoLice.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
