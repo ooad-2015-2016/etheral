@@ -14,8 +14,8 @@ namespace KinoProjekat.Kino.Models
         int pravnoLiceId;
 
         public PravnoLice() : base() { }
-        public PravnoLice(string ime, string prezime, string telefon, string email, string adresa, Firma firma, String brojLicneKarte)
-            : base(ime, prezime, telefon, email, adresa)
+        public PravnoLice(String ime, String prezime, String telefon, String email, Firma firma, String brojLicneKarte)
+          : base(ime, prezime, telefon, email)
         {
             this.firma = firma;
             this.brojLicneKarte = brojLicneKarte;

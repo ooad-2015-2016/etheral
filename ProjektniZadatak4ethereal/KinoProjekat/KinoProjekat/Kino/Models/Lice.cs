@@ -9,13 +9,13 @@ namespace KinoProjekat.Kino.Models
 {
     abstract class Lice
     {
-        public Lice(string ime, string prezime, string telefon, string email, string adresa)
+        public Lice(String ime, String prezime, String telefon, String email)
         {
             Ime = ime;
             Prezime = prezime;
             Telefon = telefon;
             Email = email;
-            Adresa = adresa;
+
         }
 
         public Lice() {}
@@ -26,7 +26,7 @@ namespace KinoProjekat.Kino.Models
         public string Prezime { get; set; }
         public string Telefon { get; set; }
         public string Email { get; set; }
-        public string Adresa { get; set; }
+       
 
     }
 }

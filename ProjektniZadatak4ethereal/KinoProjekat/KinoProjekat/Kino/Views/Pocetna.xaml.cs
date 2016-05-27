@@ -26,5 +26,25 @@ namespace KinoProjekat.Kino.Views
         {
             this.InitializeComponent();
         }
+
+        private void buttonRezervacija_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(OdabirFilma));
+        }
+
+        private void buttonOtkazi_Click(object sender, RoutedEventArgs e)
+        {
+            //this.Frame.Navigate(typeof(OdabirFilma));
+        }
+
+        private void buttonRepertoar_Click(object sender, RoutedEventArgs e)
+        {
+            //this.Frame.Navigate(typeof(OdabirFilma));
+        }
+
+
+
+
+
     }
 }

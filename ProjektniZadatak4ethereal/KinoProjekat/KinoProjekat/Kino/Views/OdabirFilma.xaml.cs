@@ -23,6 +23,7 @@ namespace KinoProjekat.Kino.Views
     /// </summary>
     public sealed partial class OdabirFilma : Page
     {
+        public bool koji;
         private ObservableCollection<MyFlipViewItem> items;
         //private ObservableCollection<MyGridViewItem> itemsG;
         private List<Film> Filmovi;
@@ -36,6 +37,10 @@ namespace KinoProjekat.Kino.Views
             //gridViewPonuda.ItemsSource = itemsG;
 
             Filmovi = FilmManager.GetFilmovi();
+
+            koji = true;
+            checkBoxFilmPoZelji.IsEnabled = false;
+
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -67,7 +72,33 @@ namespace KinoProjekat.Kino.Views
             /*itemsG.Add(new MyGridViewItem { image = "/Assets/angryBirds1.jpg", naslov = "Angry Birds film", originalniNaslov = "The Angry Birds Movie",
             reziser = "Fergal Reilly", uloge = "Jason Sudeikis, Josh Gad, Danny McBride", zanr = "Animirana komedija", link = "http://www.imdb.com/title/tt1985949/"});*/
 
+        }
 
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            koji = true;
+        }
+
+        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
+        {
+            koji = false;
+            checkBoxFilmPoZelji.IsEnabled = true;
+        }
+
+        private void gridViewPonuda_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            
+            this.Frame.Navigate(typeof(Detalji));
+        }
+
+        private void checkBoxFilmPoZelji_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Sala));
+        }
+
+        private void buttonNazad_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Pocetna));
         }
     }
 }

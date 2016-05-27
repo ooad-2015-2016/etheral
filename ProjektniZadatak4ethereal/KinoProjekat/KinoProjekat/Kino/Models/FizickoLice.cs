@@ -17,7 +17,7 @@ namespace KinoProjekat.Kino.Models
 
         public FizickoLice() : base() { }
         public FizickoLice(string ime, string prezime, string telefon, string email, string adresa, StatusFizickogLica status, TipKorisnika tip)
-            : base(ime, prezime, telefon, email, adresa)
+            : base(ime, prezime, telefon, email)
         {
             this.status = status;
             this.tip = tip;

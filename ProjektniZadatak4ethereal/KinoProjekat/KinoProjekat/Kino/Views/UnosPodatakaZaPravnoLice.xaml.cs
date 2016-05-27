@@ -22,9 +22,36 @@ namespace KinoProjekat.Kino.Views
     /// </summary>
     public sealed partial class UnosPodatakaZaPravnoLice : Page
     {
+        List<Models.PravnoLice> Plica = new List<Models.PravnoLice>();
         public UnosPodatakaZaPravnoLice()
         {
             this.InitializeComponent();
+            
+        }
+
+        private void buttonName_Click(object sender, RoutedEventArgs e)
+        {
+            Models.Firma firma = new Models.Firma(textBoxNaziv.ToString(), textBoxAdresaPravnog.ToString(), textBoxRacun.ToString());
+            //firme.Add(new Models.Firma(textBoxNaziv, textBoxAdresaPravnog, textBoxRacun);
+            if (textBoxEmail.ToString() == textBoxPotvrdaEmail.ToString())
+            {
+                Plica.Add(new Models.PravnoLice(textBoxIme.ToString(), textBoxPrezime.ToString(), textBoxTelefon.ToString(), textBoxEmail.ToString(), firma, textBoxBrojLicne.ToString()));
+                this.Frame.Navigate(typeof(Sala));
+                
+            }
+            else
+            {
+                //Poruka za nepravilan unos email
+                textBoxEmail.Text = " ";
+                textBoxPotvrdaEmail.Text = " ";
+
+            }
+
+        }
+
+        private void buttonNazad_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(OdabirFilma));
         }
     }
 }

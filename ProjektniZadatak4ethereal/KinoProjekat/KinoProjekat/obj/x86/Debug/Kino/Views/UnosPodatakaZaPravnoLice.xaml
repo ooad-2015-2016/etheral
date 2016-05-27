@@ -7,8 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" >
-        <TextBlock x:ConnectionId='1' x:Name="textBlockGrupa1" Text="Pravno lice" FontSize="24" Margin="20,0,0,0" />
+    <StackPanel Background="Bisque" >
+        <StackPanel Orientation="Horizontal" >
+            <Button x:ConnectionId='21'  x:Name="buttonNazad" FontFamily="Segoe MDL2 Assets" Content="&#xE0C4;" Margin="20,20,0,0" HorizontalAlignment="Left" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  FontSize="20"  BorderBrush="LightGray"                           Width="90"/>
+            <TextBlock Text="Pravno lice" FontSize="24" Margin="30,20,0,0" HorizontalAlignment="right" Width="973"/>
+        </StackPanel>
+        
         <Grid Margin="20,0,0,0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*" />
@@ -29,14 +33,14 @@
                     </LinearGradientBrush>
                 </Border.Background>
             </Border>
-            <TextBlock x:ConnectionId='16' x:Name="textBlockNaziv" Text="Naziv pravnog lica*:" FontSize="15" VerticalAlignment="Center" />
-            <TextBlock x:ConnectionId='17' x:Name="textBlockAdresaPravnog" Text="Adresa pravnog lica:" FontSize="15" Grid.Row="1" VerticalAlignment="Center" />
-            <TextBlock x:ConnectionId='18' x:Name="textBlockRacun" Text="Transakcijski račun:" FontSize="15" Grid.Row="2" VerticalAlignment="Center"/>
-            <TextBox x:ConnectionId='19' x:Name="textBoxNaziv" Grid.Column="1" Margin="0,0,0,10" />
-            <TextBox x:ConnectionId='20' x:Name="textBoxAdresaPravnog" Grid.Column="1" Grid.Row="1" Margin="0,0,0,10" />
-            <TextBox x:ConnectionId='21' x:Name="textBoxRacun" Grid.Column="1" Grid.Row="2" Margin="0,0,0,10" />
+            <TextBlock x:ConnectionId='15' x:Name="textBlockNaziv" Text="Naziv pravnog lica*:" FontSize="15" VerticalAlignment="Center" />
+            <TextBlock x:ConnectionId='16' x:Name="textBlockAdresaPravnog" Text="Adresa pravnog lica:" FontSize="15" Grid.Row="1" VerticalAlignment="Center" />
+            <TextBlock x:ConnectionId='17' x:Name="textBlockRacun" Text="Transakcijski račun:" FontSize="15" Grid.Row="2" VerticalAlignment="Center"/>
+            <TextBox x:ConnectionId='18' x:Name="textBoxNaziv" Grid.Column="1" Margin="0,0,0,10" />
+            <TextBox x:ConnectionId='19' x:Name="textBoxAdresaPravnog" Grid.Column="1" Grid.Row="1" Margin="0,0,0,10" />
+            <TextBox x:ConnectionId='20' x:Name="textBoxRacun" Grid.Column="1" Grid.Row="2" Margin="0,0,0,10" />
         </Grid>
-        <TextBlock x:ConnectionId='2' x:Name="textBlockGrupa2" Text="Osoba koja zastupa pravno lice" FontSize="24" Margin="20,20,0,0" />
+        <TextBlock x:ConnectionId='1' x:Name="textBlockGrupa2" Text="Osoba koja zastupa pravno lice" FontSize="24" Margin="20,20,0,0" />
         <Grid Margin="20,0,0,0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*" />
@@ -60,22 +64,22 @@
                     </LinearGradientBrush>
                 </Border.Background>
             </Border>
-            <TextBlock x:ConnectionId='4' x:Name="textBlockIme" Text="Ime*:" FontSize="15" VerticalAlignment="Center"/>
-            <TextBlock x:ConnectionId='5' x:Name="textBlockPrezime" Text="Prezime*:" FontSize="15" Grid.Row="1" VerticalAlignment="Center" />
-            <TextBlock x:ConnectionId='6' x:Name="textBlockBrojLicne" Text="Broj lične karte*:" FontSize="15" Grid.Row="2" VerticalAlignment="Center"/>
-            <TextBlock x:ConnectionId='7' x:Name="textBlockEmail" Text="E-mail*:" FontSize="15" VerticalAlignment="Center" Grid.Row="3"/>
-            <TextBlock x:ConnectionId='8' x:Name="textBlockPotvrdaEmail" Text="Potvrdite e-mail*:" FontSize="15" Grid.Row="4" VerticalAlignment="Center" />
-            <TextBlock x:ConnectionId='9' x:Name="textBlockTelefon" Text="Broj telefona*:" FontSize="15" Grid.Row="5" VerticalAlignment="Center"/>
-            <TextBox x:ConnectionId='10' x:Name="textBoxIme" Grid.Column="1" Margin="0,0,0,10" />
-            <TextBox x:ConnectionId='11' x:Name="textBoxPrezime" Grid.Column="1" Grid.Row="1" Margin="0,0,0,10" />
-            <TextBox x:ConnectionId='12' x:Name="textBoxBrojLicne" Grid.Column="1" Grid.Row="2" Margin="0,0,0,10" />
-            <TextBox x:ConnectionId='13' x:Name="textBoxEmail" Grid.Column="1" Margin="0,0,0,10" Grid.Row="3" />
-            <TextBox x:ConnectionId='14' x:Name="textBoxPotvrdaEmail" Grid.Column="1" Grid.Row="4" Margin="0,0,0,10" />
-            <TextBox x:ConnectionId='15' x:Name="textBoxTelefon" Grid.Column="1" Grid.Row="5" Margin="0,0,0,10" />
+            <TextBlock x:ConnectionId='3' x:Name="textBlockIme" Text="Ime*:" FontSize="15" VerticalAlignment="Center"/>
+            <TextBlock x:ConnectionId='4' x:Name="textBlockPrezime" Text="Prezime*:" FontSize="15" Grid.Row="1" VerticalAlignment="Center" />
+            <TextBlock x:ConnectionId='5' x:Name="textBlockBrojLicne" Text="Broj lične karte*:" FontSize="15" Grid.Row="2" VerticalAlignment="Center"/>
+            <TextBlock x:ConnectionId='6' x:Name="textBlockEmail" Text="E-mail*:" FontSize="15" VerticalAlignment="Center" Grid.Row="3"/>
+            <TextBlock x:ConnectionId='7' x:Name="textBlockPotvrdaEmail" Text="Potvrdite e-mail*:" FontSize="15" Grid.Row="4" VerticalAlignment="Center" />
+            <TextBlock x:ConnectionId='8' x:Name="textBlockTelefon" Text="Broj telefona*:" FontSize="15" Grid.Row="5" VerticalAlignment="Center"/>
+            <TextBox x:ConnectionId='9' x:Name="textBoxIme" Grid.Column="1" Margin="0,0,0,10" />
+            <TextBox x:ConnectionId='10' x:Name="textBoxPrezime" Grid.Column="1" Grid.Row="1" Margin="0,0,0,10" />
+            <TextBox x:ConnectionId='11' x:Name="textBoxBrojLicne" Grid.Column="1" Grid.Row="2" Margin="0,0,0,10" />
+            <TextBox x:ConnectionId='12' x:Name="textBoxEmail" Grid.Column="1" Margin="0,0,0,10" Grid.Row="3" />
+            <TextBox x:ConnectionId='13' x:Name="textBoxPotvrdaEmail" Grid.Column="1" Grid.Row="4" Margin="0,0,0,10" />
+            <TextBox x:ConnectionId='14' x:Name="textBoxTelefon" Grid.Column="1" Grid.Row="5" Margin="0,0,0,10" />
         </Grid>
         <TextBlock Text="Napomena:" Margin="20,20,0,0" FontSize="15" FontWeight="Bold" />
         <TextBlock Text="Polja označena zvjezdicom (*) su obavezna za unos." Margin="20,0,0,0" FontSize="15" FontWeight="SemiBold" />
-        <Button x:ConnectionId='3' x:Name="buttonName" FontFamily="Segoe MDL2 Assets" Content="&#xEA62;" HorizontalAlignment="Right" Margin="0,0,20,0" Width="90" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" FontSize="20" BorderBrush="LightGray" />
+        <Button x:ConnectionId='2' x:Name="buttonName" FontFamily="Segoe MDL2 Assets" Content="&#xEA62;" HorizontalAlignment="Right" Margin="0,0,20,0" Width="90" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" FontSize="20" BorderBrush="LightGray"                          />
     </StackPanel>
 </Page>
 

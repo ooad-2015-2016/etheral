@@ -13,7 +13,12 @@ namespace KinoProjekat.Kino.Models
         int firmaId;
 
         public Firma() { }
-
+        public Firma(String naziv, String adresa, String transakkcijskiRacun)
+        {
+            this.naziv = naziv;
+            this.adresa = adresa;
+            this.transakkcijskiRacun = transakkcijskiRacun;
+        }
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int FirmaId { get; set; }
         public String Naziv { get; set; }

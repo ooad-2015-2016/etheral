@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -22,9 +23,34 @@ namespace KinoProjekat.Kino.Views
     /// </summary>
     public sealed partial class UnosPodatakaZaFizickoLice : Page
     {
+        List<Models.FizickoLice> Flica = new List<Models.FizickoLice>();
         public UnosPodatakaZaFizickoLice()
         {
             this.InitializeComponent();
+          
+        }
+
+        private async void buttonName_Click(object sender, RoutedEventArgs e)
+        {
+            // (string ime, string prezime, string telefon, string email, string adresa, StatusFizickogLica status, TipKorisnika tip)
+            if (textBoxEmail.ToString() == textBoxPotvrdaEmail.ToString())
+            {
+                Flica.Add(new Models.FizickoLice(textBoxIme.ToString(), textBoxPrezime.ToString(), textBoxTelefon.ToString(), textBoxEmail.ToString(), textBoxAdresa.ToString(), Models.StatusFizickogLica.dijete, Models.TipKorisnika.InternetKorisnik));
+                this.Frame.Navigate(typeof(Sala));
+            }
+            else
+            {
+                //Poruka za nepravilan unos email
+                textBoxEmail.Text = " ";
+                textBoxPotvrdaEmail.Text = " ";
+
+            }
+
+        }
+
+        private void buttonNazad_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(OdabirFilma));
         }
     }
 }

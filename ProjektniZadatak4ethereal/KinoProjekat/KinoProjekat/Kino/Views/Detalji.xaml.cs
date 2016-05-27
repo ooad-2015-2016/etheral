@@ -22,9 +22,28 @@ namespace KinoProjekat.Kino.Views
     /// </summary>
     public sealed partial class Detalji : Page
     {
+        //public bool kojiJe;
         public Detalji()
         {
+
             this.InitializeComponent();
+            
         }
-    }
+
+        private void buttonRezervisi_Click(object sender, RoutedEventArgs e)
+        {
+            /*if (kojiJe == true)
+            {
+                this.Frame.Navigate(typeof(UnosPodatakaZaPravnoLice));
+            }*/
+        //  else
+           this.Frame.Navigate(typeof(UnosPodatakaZaFizickoLice));
+
+        }
+
+        /*protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            
+        }*/
+      }
 }

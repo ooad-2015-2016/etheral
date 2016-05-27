@@ -7,9 +7,14 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock Text="Unos ličnih podataka" FontSize="24" Margin="20,20,0,0" />
-        <Grid Margin="20,20,0,0">
+    <StackPanel Background="BlanchedAlmond">
+        <StackPanel Orientation="Horizontal" >
+            <Button  x:Name="buttonNazad" FontFamily="Segoe MDL2 Assets" Content="&#xE0C4;" Margin="20,20,0,0" HorizontalAlignment="Left" Background="Bisque"  FontSize="20"  BorderBrush="LightGray" Click="buttonNazad_Click" Width="90"/>
+            <TextBlock Text="Unos ličnih podataka" FontSize="24" Margin="30,20,0,0" HorizontalAlignment="right" Width="973"/>
+        </StackPanel>
+        
+         <Grid Background="Bisque" Margin="20,20,0,0">
+
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*" />
                 <ColumnDefinition Width="1*" />
@@ -39,6 +44,6 @@
         </Grid>
         <TextBlock Text="Napomena:" Margin="20,20,0,0" FontSize="15" FontWeight="Bold" />
         <TextBlock Text="Polja označena zvjezdicom (*) su obavezna za unos." Margin="20,0,0,0" FontSize="15" FontWeight="SemiBold" />
-        <Button x:Name="buttonName" FontFamily="Segoe MDL2 Assets" Content="&#xEA62;" HorizontalAlignment="Right" Margin="0,20,20,0" Width="90" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" FontSize="20" BorderBrush="LightGray" />
+        <Button x:Name="buttonName" FontFamily="Segoe MDL2 Assets" Content="&#xEA62;" HorizontalAlignment="Right" Margin="0,20,20,0" Width="90" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" FontSize="20" BorderBrush="LightGray" Click="buttonName_Click" />
     </StackPanel>
 </Page>

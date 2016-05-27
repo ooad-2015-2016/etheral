@@ -26,5 +26,12 @@ namespace KinoProjekat.Kino.Views
         {
             this.InitializeComponent();
         }
+
+        private void buttonName_Click(object sender, RoutedEventArgs e)
+        {
+            //u ovisnosti sta je bilo fira ili PRavno ili fizicko
+            this.Frame.Navigate(typeof(UnosPodatakaZaFizickoLice));
+            //this.Frame.Navigate(typeof(UnosPodatakaZaPravnoLice));
+        }
     }
 }

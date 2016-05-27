@@ -14,12 +14,15 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <StackPanel Margin="0,0,0,0">
-            <TextBlock Text="Odabir filma" FontSize="24" Margin="10,0,0,20" />
+            <StackPanel Orientation="Horizontal" >
+                <Button  x:Name="buttonNazad" FontFamily="Segoe MDL2 Assets" Content="&#xE0C4;" Margin="20,20,0,0" HorizontalAlignment="Left" Background="#FFDCC19F"  FontSize="20"  BorderBrush="LightGray" Click="buttonNazad_Click" Width="90"/>
+                <TextBlock Text="Odabir filma" FontSize="24" Margin="30,20,0,0" HorizontalAlignment="right" Width="973"/>
+            </StackPanel>          
             <TextBlock Text="Odaberite jednu od opcija:" FontSize="15" Margin="10,0,0,0" />
-            <RadioButton GroupName="radioButtonGrupa" Content="Fizičko lice" IsChecked="True" Margin="10,0,0,0" />
+            <RadioButton GroupName="radioButtonGrupa" Content="Fizičko lice" IsChecked="True" Margin="10,0,0,0" Checked="RadioButton_Checked" />
             <StackPanel Orientation="Horizontal" Margin="10,0,0,20">
-                <RadioButton GroupName="radioButtonGrupa" Content="Pravno lice (kompanija / firma)" />
-                <CheckBox x:Name="checkBoxFilmPoZelji" Margin="20,0,0,0" Content="Puštanje filma po želji" />
+                <RadioButton GroupName="radioButtonGrupa" Content="Pravno lice (kompanija / firma)" Checked="RadioButton_Checked_1" />
+                <CheckBox x:Name="checkBoxFilmPoZelji" Margin="20,0,0,0" Content="Puštanje filma po želji" Click="checkBoxFilmPoZelji_Click" />
             </StackPanel>
             <TextBlock Text="Premijere" FontSize="20" Margin="10,0,0,0" />
             <FlipView x:Name="flipViewPremijere" Height="200" Background="Transparent" >
@@ -54,7 +57,7 @@
                             FlipView="{Binding ElementName=flipViewPremijere}">
             </callisto:FlipViewIndicator>
             <TextBlock Text="Ponuda" FontSize="20" Margin="10,10,0,0" />
-            <GridView x:Name="gridViewPonuda" Height="170" Background="Transparent" Margin="10,0,10,0" ItemsSource="{x:Bind Filmovi}" >
+            <GridView x:Name="gridViewPonuda" Height="170" Background="Transparent" Margin="10,0,10,0" ItemsSource="{x:Bind Filmovi}" SelectionChanged="gridViewPonuda_SelectionChanged" >
                 <GridView.ItemTemplate>
                     <DataTemplate x:DataType="data:Film">
 
