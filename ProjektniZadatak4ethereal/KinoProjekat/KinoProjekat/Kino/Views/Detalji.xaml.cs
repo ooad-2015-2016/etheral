@@ -39,6 +39,7 @@ namespace KinoProjekat.Kino.Views
         //  else
            this.Frame.Navigate(typeof(UnosPodatakaZaFizickoLice));
 
+
         }
 
         /*protected override void OnNavigatedTo(NavigationEventArgs e)

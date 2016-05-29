@@ -25,6 +25,7 @@ namespace KinoProjekat.Kino.Views
         public ZavrsnaForma()
         {
             this.InitializeComponent();
+            
         }
     }
 }

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -37,6 +38,21 @@ namespace KinoProjekat.Kino.Views
         }
         private void textBoxIme_TextChanged(object sender, TextChangedEventArgs e)
         {
+            
+        }
+
+        private async void buttonOtkazi_Click(object sender, RoutedEventArgs e)
+        {
+            String kod = textBoxIme.ToString();
+            if (kod == "")// OVDJE DA LI JE DOBAR KOD PROVJERAVA// OVO SAM BEZVEZE NAPISALA
+            {
+                this.Frame.Navigate(typeof(ZavrsnaForma));
+            }
+            else
+            {
+                MessageDialog dialog = new MessageDialog("Unesite kod!", "Upozorenje");
+                await dialog.ShowAsync();
+            }
 
         }
     }

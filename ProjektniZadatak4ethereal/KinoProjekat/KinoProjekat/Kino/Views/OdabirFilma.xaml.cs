@@ -87,13 +87,14 @@ namespace KinoProjekat.Kino.Views
 
         private void gridViewPonuda_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            
+           
             this.Frame.Navigate(typeof(Detalji));
         }
 
+
         private void checkBoxFilmPoZelji_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Sala));
+            this.Frame.Navigate(typeof(UnosPodatakaZaPravnoLice));
         }
 
         private void buttonNazad_Click(object sender, RoutedEventArgs e)

@@ -94,9 +94,10 @@
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="BorderBrush" />
-      <RootProperty Name="Margin" />
+      <RootProperty Name="Child" />
       <RootProperty Name="Width" />
       <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
