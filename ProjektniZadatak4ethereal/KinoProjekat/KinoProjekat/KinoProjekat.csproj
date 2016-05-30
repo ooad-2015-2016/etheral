@@ -100,6 +100,7 @@
     </Compile>
     <Compile Include="FolderPravnoLice\UnosPodatakaOOsobiKojaZastupaPravnoLice.xaml.cs" />
     <Compile Include="FolderPravnoLice\UnosPodatakaZaPravnoLice.xaml.cs" />
+    <Compile Include="Kino\Models\DefaultPodaci.cs" />
     <Compile Include="Kino\Models\Film.cs" />
     <Compile Include="Kino\Models\FilmDbContext.cs" />
     <Compile Include="Kino\Models\Firma.cs" />

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace KinoProjekat.Kino.Models
 {
-    abstract class Lice
+    public class Lice
     {
         public Lice(String ime, String prezime, String telefon, String email)
         {

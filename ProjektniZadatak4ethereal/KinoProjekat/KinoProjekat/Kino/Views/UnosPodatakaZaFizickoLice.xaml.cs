@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using KinoProjekat.Kino.Models;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -32,7 +33,8 @@ namespace KinoProjekat.Kino.Views
 
         private async void buttonName_Click(object sender, RoutedEventArgs e)
         {
-            // (string ime, string prezime, string telefon, string email, string adresa, StatusFizickogLica status, TipKorisnika tip)
+
+
             if (textBoxEmail.ToString() == textBoxPotvrdaEmail.ToString())
             {
                 Flica.Add(new Models.FizickoLice(textBoxIme.ToString(), textBoxPrezime.ToString(), textBoxTelefon.ToString(), textBoxEmail.ToString(), textBoxAdresa.ToString(), Models.StatusFizickogLica.dijete, Models.TipKorisnika.InternetKorisnik));
@@ -45,6 +47,31 @@ namespace KinoProjekat.Kino.Views
                 textBoxPotvrdaEmail.Text = " ";
 
             }
+            // (string ime, string prezime, string telefon, string email, string adresa, StatusFizickogLica status, TipKorisnika tip)
+
+            using (var db = new LiceDbContext())
+            {
+                var contact = new Lice
+                {
+                    Ime = textBoxIme.Text,
+                    Prezime = textBoxPrezime.Text,
+                    Email = textBoxEmail.Text,
+                    Telefon = textBoxTelefon.Text,
+
+                };
+                db.SveLica.Add(contact);
+                //SaveChanges obavezno da se reflektuju izmjene u bazi, tek tada dolazi do komunikacije
+
+                db.SaveChanges();
+                //reset polja za unos
+                textBoxIme.Text = string.Empty;
+                textBoxPrezime.Text = string.Empty;
+                textBoxEmail.Text = string.Empty;
+                textBoxTelefon.Text = string.Empty;
+                textBoxPotvrdaEmail.Text = string.Empty;
+
+            }
+
 
         }
 
