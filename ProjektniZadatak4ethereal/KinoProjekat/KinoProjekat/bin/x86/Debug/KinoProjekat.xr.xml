@@ -93,12 +93,12 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Child" />
       <RootProperty Name="Opacity" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="BorderBrush" />
       <RootProperty Name="Width" />
       <RootProperty Name="CornerRadius" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="BorderBrush" />
       <RootEvent Name="PointerPressed" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
@@ -149,6 +149,7 @@
       <RootProperty Name="Offset" />
     </RootType>
     <RootType FullName="KinoProjekat.Kino.Views.Detalji" />
+    <RootType FullName="KinoProjekat.Kino.Views.MalaSala" />
     <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
       <RootProperty Name="GroupName" />
       <RootProperty Name="Content" />
@@ -211,6 +212,7 @@
     </RootType>
     <RootType FullName="KinoProjekat.Kino.Views.Pocetna" />
     <RootType FullName="KinoProjekat.Kino.Views.Sala" />
+    <RootType FullName="KinoProjekat.Kino.Views.SrednjaSala" />
     <RootType FullName="KinoProjekat.Kino.Views.UnosPodatakaZaFizickoLice" />
     <RootType FullName="KinoProjekat.Kino.Views.UnosPodatakaZaPravnoLice" />
     <RootType FullName="KinoProjekat.Kino.Views.ZavrsnaForma" />

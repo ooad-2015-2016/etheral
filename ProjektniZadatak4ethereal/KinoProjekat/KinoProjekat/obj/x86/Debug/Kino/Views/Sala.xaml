@@ -51,7 +51,7 @@
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
         <Image Source="/Assets/pocetna.jpg" Grid.ColumnSpan="21" Grid.RowSpan="17" Stretch="Fill" />
-        <TextBlock Text="Odaberite mjesta:" FontSize="24" Grid.ColumnSpan="16" Margin="10,0,0,0" Foreground="AntiqueWhite" Grid.Column="2" />
+        <TextBlock Text="Odaberite mjesta:" FontSize="24" Grid.ColumnSpan="16" Margin="10,0,0,0" Foreground="AntiqueWhite" Grid.Column="0" />
         <StackPanel Grid.Row="1" Grid.ColumnSpan="18" Orientation="Horizontal" Margin="10,0,0,0">
             <Border Width="25" Background="DarkRed" CornerRadius="8,8,8,8"  />
             <TextBlock Text="Zauzeto" FontSize="15" Margin="5,0,0,0" VerticalAlignment="Center" Foreground="AntiqueWhite" />

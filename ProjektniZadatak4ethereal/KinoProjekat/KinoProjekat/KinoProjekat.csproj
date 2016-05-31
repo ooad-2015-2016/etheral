@@ -129,6 +129,9 @@
       <DependentUpon>Detalji.xaml</DependentUpon>
     </Compile>
     <Compile Include="Kino\Views\Film.cs" />
+    <Compile Include="Kino\Views\MalaSala.xaml.cs">
+      <DependentUpon>MalaSala.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Kino\Views\MyFlipViewItem.cs" />
     <Compile Include="Kino\Views\OdabirFilma.xaml.cs">
       <DependentUpon>OdabirFilma.xaml</DependentUpon>
@@ -141,6 +144,9 @@
     </Compile>
     <Compile Include="Kino\Views\Sala.xaml.cs">
       <DependentUpon>Sala.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kino\Views\SrednjaSala.xaml.cs">
+      <DependentUpon>SrednjaSala.xaml</DependentUpon>
     </Compile>
     <Compile Include="Kino\Views\UnosPodatakaZaFizickoLice.xaml.cs">
       <DependentUpon>UnosPodatakaZaFizickoLice.xaml</DependentUpon>
@@ -226,6 +232,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Kino\Views\MalaSala.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Kino\Views\OdabirFilma.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -239,6 +249,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Kino\Views\Sala.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kino\Views\SrednjaSala.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

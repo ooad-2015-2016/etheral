@@ -2015,7 +2015,6 @@ C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\K
 C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\System.Xml.XDocument.dll
 C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\System.Xml.XmlDocument.dll
 C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\System.Xml.XmlSerializer.dll
-C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\KinoProjekat.csprojResolveAssemblyReference.cache
 C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\App.g.i.cs
 C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\App.g.cs
 C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\FolderPravnoLice\UnosPodatakaOOsobiKojaZastupaPravnoLice.g.i.cs
@@ -2973,3 +2972,38 @@ C:\Users\User\Desktop\OOAD Baza\ethereal\ProjektniZadatak4ethereal\KinoProjekat\
 C:\Users\User\Desktop\OOAD Baza\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\User\Desktop\OOAD Baza\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\KinoProjekat.csprojResolveAssemblyReference.cache
 C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\KinoProjekat.csprojResolveAssemblyReference.cache
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Detalji.g.i.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Detalji.g.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Otkazivanje.g.i.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Otkazivanje.g.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Sala.g.i.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Sala.g.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\SrednjaSala.g.i.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\SrednjaSala.g.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\UnosPodatakaZaFizickoLice.g.i.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\UnosPodatakaZaFizickoLice.g.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\ZavrsnaForma.g.i.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\ZavrsnaForma.g.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Detalji.xaml
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Otkazivanje.xaml
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\UnosPodatakaZaFizickoLice.xaml
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\ZavrsnaForma.xaml
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Sala.xaml
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\SrednjaSala.xaml
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Detalji.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Otkazivanje.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\UnosPodatakaZaFizickoLice.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\ZavrsnaForma.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Sala.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\SrednjaSala.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Kino\Views\Detalji.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Kino\Views\Otkazivanje.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Kino\Views\Sala.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Kino\Views\SrednjaSala.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Kino\Views\UnosPodatakaZaFizickoLice.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Kino\Views\ZavrsnaForma.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Kino\Views\MalaSala.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\MalaSala.g.i.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\MalaSala.g.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\MalaSala.xaml
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\MalaSala.xbf
