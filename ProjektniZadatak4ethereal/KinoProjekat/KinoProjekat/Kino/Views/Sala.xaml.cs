@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -32,6 +33,31 @@ namespace KinoProjekat.Kino.Views
             //u ovisnosti sta je bilo fira ili PRavno ili fizicko
             this.Frame.Navigate(typeof(UnosPodatakaZaFizickoLice));
             //this.Frame.Navigate(typeof(UnosPodatakaZaPravnoLice));
+        }
+
+        private void Dalje_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ZavrsnaForma));
+
+        }
+
+        private void s1_PointerPressed(object sender, PointerRoutedEventArgs e)
+        {
+            SolidColorBrush nasaBoja =(SolidColorBrush) s1.Background;
+            if (nasaBoja.Color == Colors.WhiteSmoke)
+                s1.Background = new SolidColorBrush(Colors.DarkSeaGreen);
+            else if (nasaBoja.Color == Colors.DarkSeaGreen)
+                s1.Background = new SolidColorBrush(Colors.WhiteSmoke);
+        }
+
+        private void s2_PointerPressed(object sender, PointerRoutedEventArgs e)
+        {
+            SolidColorBrush nasaBoja = (SolidColorBrush)s2.Background;
+            if (nasaBoja.Color == Colors.WhiteSmoke)
+                s2.Background = new SolidColorBrush(Colors.DarkSeaGreen);
+            else if (nasaBoja.Color == Colors.DarkSeaGreen)
+                s2.Background = new SolidColorBrush(Colors.WhiteSmoke);
+
         }
     }
 }

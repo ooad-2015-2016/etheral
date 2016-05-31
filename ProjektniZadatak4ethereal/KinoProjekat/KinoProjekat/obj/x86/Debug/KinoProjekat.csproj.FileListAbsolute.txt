@@ -2671,7 +2671,6 @@ C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\Ki
 C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Kino\Views\UnosPodatakaZaFizickoLice.xbf
 C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Kino\Views\ZavrsnaForma.xbf
 C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Callisto.dll
-C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\KinoProjekat.csprojResolveAssemblyReference.cache
 C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Detalji.g.i.cs
 C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\Detalji.g.cs
 C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\OdabirFilma.g.i.cs
@@ -2973,3 +2972,4 @@ C:\Users\User\Desktop\OOAD Baza\ethereal\ProjektniZadatak4ethereal\KinoProjekat\
 C:\Users\User\Desktop\OOAD Baza\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Callisto.pri.xml
 C:\Users\User\Desktop\OOAD Baza\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\User\Desktop\OOAD Baza\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\KinoProjekat.csprojResolveAssemblyReference.cache
+C:\Users\Ena\Desktop\PROJEKAT\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\KinoProjekat.csprojResolveAssemblyReference.cache

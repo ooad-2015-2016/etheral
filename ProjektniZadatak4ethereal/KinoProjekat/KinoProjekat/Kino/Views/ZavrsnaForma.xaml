@@ -30,15 +30,15 @@
         <TextBlock  Text="Uspješno ste izvršili rezervaciju!" FontSize="35" HorizontalAlignment="Center" Foreground="AntiqueWhite" Grid.Row="2" Grid.Column="1"/>
         <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" >
             <TextBlock  Text="Naziv filma:" Foreground="AntiqueWhite" FontSize="20" Margin="10,0,0,0" />
-            <TextBlock Text="________________" Foreground="AntiqueWhite" FontSize="20" Margin="5,0,0,0"/>
+            <TextBlock Text="_________________________" Foreground="AntiqueWhite" FontSize="20" Margin="5,0,0,0"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center">
             <TextBlock  Text="Broj sjedišta:" Foreground="AntiqueWhite" FontSize="20" Margin="10,0,0,0"/>
-            <TextBlock Text="_______________" Foreground="AntiqueWhite" FontSize="20" Margin="5,0,0,0"/>
+            <TextBlock Text="________________________" Foreground="AntiqueWhite" FontSize="20" Margin="5,0,0,0"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center">
             <TextBlock  Text="Datum projekcije:" Foreground="AntiqueWhite" FontSize="20" Margin="10,0,0,0"/>
-            <TextBlock Text="__________" Foreground="AntiqueWhite" FontSize="20" Margin="5,0,0,0"/>
+            <TextBlock Text="___________________" Foreground="AntiqueWhite" FontSize="20" Margin="5,0,0,0"/>
         </StackPanel>
         <StackPanel  Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="6" Grid.Column="1">
             <TextBlock Text="Vidimo se uskoro!" FontSize="35"  Foreground="AntiqueWhite" />

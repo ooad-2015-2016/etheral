@@ -42,9 +42,14 @@ namespace KinoProjekat.Kino.Views
 
         }
 
+        private void buttonNazad_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(OdabirFilma));
+        }
+
         /*protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             
         }*/
-      }
+    }
 }

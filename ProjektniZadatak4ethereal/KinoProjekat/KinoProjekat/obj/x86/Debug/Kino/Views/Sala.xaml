@@ -204,8 +204,8 @@
         <Border Width="Auto" Background="WhiteSmoke" CornerRadius="8,8,8,8" Grid.Row="11" Grid.Column="6" Margin="5,5,5,5" />
         <Border Width="Auto" Background="WhiteSmoke" CornerRadius="8,8,8,8" Grid.Row="11" Grid.Column="7" Margin="5,5,5,5" />
         <Border Width="Auto" Background="WhiteSmoke" CornerRadius="8,8,8,8" Grid.Row="11" Grid.Column="8" Margin="5,5,5,5" />
-        <Border x:Name="s1" Width="Auto" Background="WhiteSmoke" CornerRadius="8,8,8,8" Grid.Row="11" Grid.Column="9" Margin="5,5,5,5" PointerPressed="s1_PointerPressed" />
-        <Border x:Name="s2" Width="Auto" Background="WhiteSmoke" CornerRadius="8,8,8,8" Grid.Row="11" Grid.Column="10" Margin="5,5,5,5" PointerPressed="s2_PointerPressed" />
+        <Border x:ConnectionId='1' x:Name="s1" Width="Auto" Background="WhiteSmoke" CornerRadius="8,8,8,8" Grid.Row="11" Grid.Column="9" Margin="5,5,5,5"                                    />
+        <Border x:ConnectionId='2' x:Name="s2" Width="Auto" Background="WhiteSmoke" CornerRadius="8,8,8,8" Grid.Row="11" Grid.Column="10" Margin="5,5,5,5"                                    />
         <Border Width="Auto" Background="WhiteSmoke" CornerRadius="8,8,8,8" Grid.Row="11" Grid.Column="11" Margin="5,5,5,5" />
         <Border Width="Auto" Background="WhiteSmoke" CornerRadius="8,8,8,8" Grid.Row="11" Grid.Column="12" Margin="5,5,5,5" />
         <Border Width="Auto" Background="WhiteSmoke" CornerRadius="8,8,8,8" Grid.Row="11" Grid.Column="13" Margin="5,5,5,5" />
@@ -291,6 +291,7 @@
         <Border Width="Auto" Background="WhiteSmoke" CornerRadius="8,8,8,8" Grid.Row="15" Grid.Column="17" Margin="5,5,5,5" />
         <Border Width="Auto" Background="WhiteSmoke" CornerRadius="8,8,8,8" Grid.Row="15" Grid.Column="18" Margin="5,5,5,5" />
         <TextBlock Text="A" Grid.Row="15" Grid.Column="19" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" FontWeight="SemiBold" Foreground="AntiqueWhite" />
-        <Button x:Name="Dalje" FontFamily="Segoe MDL2 Assets" Content="&#xEA62;" HorizontalAlignment="Right" Margin="0,5,21,14" Width="90"  Foreground="AntiqueWhite" FontSize="12" BorderBrush="LightGray" RenderTransformOrigin="13.789,28.25" Grid.ColumnSpan="2" Grid.Column="19" Grid.Row="16" Click="Dalje_Click"  />
+        <Button x:ConnectionId='3' x:Name="Dalje" FontFamily="Segoe MDL2 Assets" Content="&#xEA62;" HorizontalAlignment="Right" Margin="0,5,21,14" Width="90"  Foreground="AntiqueWhite" FontSize="12" BorderBrush="LightGray" RenderTransformOrigin="13.789,28.25" Grid.ColumnSpan="2" Grid.Column="19" Grid.Row="16"                      />
     </Grid>
 </Page>
+

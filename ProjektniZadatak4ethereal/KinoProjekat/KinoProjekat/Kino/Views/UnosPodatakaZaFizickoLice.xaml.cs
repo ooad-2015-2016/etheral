@@ -31,7 +31,7 @@ namespace KinoProjekat.Kino.Views
           
         }
 
-        private async void buttonName_Click(object sender, RoutedEventArgs e)
+       private void buttonName_Click(object sender, RoutedEventArgs e)
         {
 
 
@@ -74,7 +74,7 @@ namespace KinoProjekat.Kino.Views
 
 
         }
-
+        
         private void buttonNazad_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(OdabirFilma));
