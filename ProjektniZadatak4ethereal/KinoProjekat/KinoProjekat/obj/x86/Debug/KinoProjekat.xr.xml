@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="TrenutnaLokacija" />
     <RootPropertyPathName Name="naslov3" />
     <RootPropertyPathName Name="image3" />
     <RootPropertyPathName Name="naslov2" />
@@ -154,6 +155,20 @@
     </RootType>
     <RootType FullName="KinoProjekat.Kino.Views.Detalji" />
     <RootType FullName="KinoProjekat.Kino.Views.DetaljiRepertoar" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Maps.MapControl">
+      <RootProperty Name="Center" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="MapServiceToken" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+      <RootProperty Name="ElementName" />
+    </RootType>
+    <RootType FullName="KinoProjekat.Kino.Views.GPSLokator" />
     <RootType FullName="KinoProjekat.Kino.Views.MalaSala" />
     <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
       <RootProperty Name="GroupName" />
@@ -182,9 +197,6 @@
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding">
-      <RootProperty Name="ElementName" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
       <RootProperty Name="Margin" />
