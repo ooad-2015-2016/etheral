@@ -55,8 +55,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
-      <RootProperty Name="BorderBrush" />
-      <RootProperty Name="Background" />
+      <RootProperty Name="FontSize" />
       <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
@@ -127,12 +126,17 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="Blocks" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
+      <RootProperty Name="Content" />
+      <RootProperty Name="FontSize" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Documents.Paragraph">
       <RootProperty Name="Inlines" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="IsMultiSelectCheckBoxEnabled" />
       <RootProperty Name="Items" />
+      <RootProperty Name="IsItemClickEnabled" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem">
       <RootProperty Name="Content" />
@@ -149,6 +153,7 @@
       <RootProperty Name="Offset" />
     </RootType>
     <RootType FullName="KinoProjekat.Kino.Views.Detalji" />
+    <RootType FullName="KinoProjekat.Kino.Views.DetaljiRepertoar" />
     <RootType FullName="KinoProjekat.Kino.Views.MalaSala" />
     <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
       <RootProperty Name="GroupName" />
@@ -178,10 +183,6 @@
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
-      <RootProperty Name="Content" />
-      <RootProperty Name="FontSize" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="ElementName" />
     </RootType>
@@ -191,11 +192,6 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="KinoProjekat.Kino.Views.OdabirFilma" />
-    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
-      <RootProperty Name="ImageSource" />
-      <RootProperty Name="Stretch" />
-      <RootProperty Name="AlignmentX" />
-    </RootType>
     <RootType FullName="KinoProjekat.Kino.Views.Otkazivanje" />
     <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
       <RootProperty Name="HorizontalAlignment" />

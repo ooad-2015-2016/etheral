@@ -3007,3 +3007,9 @@ C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\K
 C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\MalaSala.g.cs
 C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\MalaSala.xaml
 C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\MalaSala.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\DetaljiRepertoar.g.i.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\DetaljiRepertoar.g.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\DetaljiRepertoar.xaml
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\DetaljiRepertoar.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Kino\Views\DetaljiRepertoar.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\KinoProjekat.csprojResolveAssemblyReference.cache

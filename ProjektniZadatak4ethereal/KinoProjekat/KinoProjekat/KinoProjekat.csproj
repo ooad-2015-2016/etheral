@@ -128,6 +128,9 @@
     <Compile Include="Kino\Views\Detalji.xaml.cs">
       <DependentUpon>Detalji.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Kino\Views\DetaljiRepertoar.xaml.cs">
+      <DependentUpon>DetaljiRepertoar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Kino\Views\Film.cs" />
     <Compile Include="Kino\Views\MalaSala.xaml.cs">
       <DependentUpon>MalaSala.xaml</DependentUpon>
@@ -229,6 +232,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Kino\Views\Detalji.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kino\Views\DetaljiRepertoar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -15,27 +15,26 @@
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
-        <Border BorderBrush="Bisque" Grid.RowSpan="3" Grid.ColumnSpan="3" Opacity="1"  >
+        <Border BorderBrush="Bisque" Grid.RowSpan="3" Grid.ColumnSpan="4" >
             <Border.Background>
                 <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
-                    <GradientStop Color="#FFE6AA5B"  Offset="0.0" />
-                    <GradientStop Color="#FFF5C789"  Offset="0.5" />
-                    <GradientStop Color="#FFF5E1C7" Offset="1.0" />
+                    <GradientStop Color="BlanchedAlmond"  Offset="0.0" />
+                    <GradientStop Color="#FFF0D7BA"  Offset="0.5" />
+                    <GradientStop Color="BurlyWood" Offset="1.0" />
                 </LinearGradientBrush>
             </Border.Background>
-            <Button  x:Name="buttonNazad" FontFamily="Segoe MDL2 Assets" Content="&#xE0C4;" Margin="113,105,0,566" HorizontalAlignment="Left" Background="#FFDCC19F"  FontSize="20"  BorderBrush="LightGray" Click="buttonNazad_Click" Width="138" Height="49"/>
         </Border>
 
-        <TextBlock Text="Otkazivanje rezervacije" Grid.ColumnSpan="3" FontSize="50" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily="DengXian" Foreground="AntiqueWhite" TextWrapping="Wrap"  FontWeight="SemiBold"/>
-        <TextBlock Text="Unesite QR kod vaše ulaznice:" Grid.Column="0" FontSize="30" VerticalAlignment="Center" Grid.Row="1" Grid.ColumnSpan="3" HorizontalAlignment="Left" Width="1206" Margin="54,100,0,100"/>
-        <TextBox x:Name="textBoxIme" Grid.Column="1"  Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" BorderBrush="Black" Width="649" TextChanged="textBoxIme_TextChanged" Margin="101,104,103,104" >
-            <TextBox.Background>
-                <ImageBrush ImageSource="/Assets/jpeg.jpg" Stretch="Uniform" AlignmentX="Right" ></ImageBrush>
-            </TextBox.Background>
-        </TextBox>
-        <Button x:Name="buttonOtkazi" Content="Otkaži" Grid.Row="2" Grid.Column="2" Visibility="Visible" Foreground="AntiqueWhite" HorizontalAlignment="Center"  VerticalAlignment="Center" FontFamily="DengXian" FontSize="30" FontWeight="Bold" Margin="158,96,129,95" Width="139" Click="buttonOtkazi_Click"  />
+        <Button  x:Name="buttonNazad" Grid.Column="1" FontFamily="Segoe MDL2 Assets" Content="&#xE0C4;" Background="#FFDCC19F"  FontSize="20"  BorderBrush="LightGray" Click="buttonNazad_Click" Width="90" HorizontalAlignment="Left"  />
+
+        <TextBlock Text="Otkazivanje rezervacije" Grid.ColumnSpan="2" FontSize="46" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap"  FontWeight="SemiBold"/>
+        <TextBlock Text="Unesite QR kod vaše ulaznice:" Grid.Column="1" FontSize="34" VerticalAlignment="Center" Grid.Row="1" HorizontalAlignment="Left" />
+        <TextBox x:Name="textBoxIme" Grid.Column="2"  Grid.Row="1" FontSize="34" VerticalAlignment="Center" TextChanged="textBoxIme_TextChanged" />
+
+        <Button x:Name="buttonOtkazi" Content="Otkaži" Grid.Row="2" Grid.Column="1" Visibility="Visible" HorizontalAlignment="Left"  VerticalAlignment="Center" FontSize="24" FontWeight="Bold" Click="buttonOtkazi_Click"  />
     </Grid>
 </Page>

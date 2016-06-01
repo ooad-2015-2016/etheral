@@ -20,32 +20,11 @@ namespace KinoProjekat.Kino.Views
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Pocetna : Page
+    public sealed partial class DetaljiRepertoar : Page
     {
-        public Pocetna()
+        public DetaljiRepertoar()
         {
             this.InitializeComponent();
         }
-
-        private void buttonRezervacija_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(OdabirFilma), false);
-        }
-
-        private void buttonOtkazi_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(Otkazivanje));
-        }
-
-        private void buttonRepertoar_Click(object sender, RoutedEventArgs e)
-        {
-            
-            this.Frame.Navigate(typeof(OdabirFilma), true);
-        }
-
-
-
-
-
     }
 }

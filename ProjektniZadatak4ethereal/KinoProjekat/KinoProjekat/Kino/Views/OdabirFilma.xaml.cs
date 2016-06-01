@@ -24,6 +24,7 @@ namespace KinoProjekat.Kino.Views
     public sealed partial class OdabirFilma : Page
     {
         public bool koji;
+        private bool samoRepertoar = true;
         private ObservableCollection<MyFlipViewItem> items;
         //private ObservableCollection<MyGridViewItem> itemsG;
         private List<Film> Filmovi;
@@ -45,6 +46,8 @@ namespace KinoProjekat.Kino.Views
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            var repertoar = e.Parameter;
+            samoRepertoar = (bool)repertoar;
             items.Clear();
             //itemsG.Clear();
             items.Add(new MyFlipViewItem
@@ -87,8 +90,10 @@ namespace KinoProjekat.Kino.Views
 
         private void gridViewPonuda_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-           
-            this.Frame.Navigate(typeof(Detalji));
+            if (!samoRepertoar)
+                this.Frame.Navigate(typeof(Detalji));
+            else
+                this.Frame.Navigate(typeof(DetaljiRepertoar));
         }
 
 
