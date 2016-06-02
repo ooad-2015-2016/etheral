@@ -7,11 +7,11 @@ using KinoProjekat.Kino.Models;
 namespace KinoProjekatMigrations
 {
     [ContextType(typeof(FilmDbContext))]
-    partial class FilmMigration
+    partial class FiilmMigration
     {
         public override string Id
         {
-            get { return "20160425120630_FilmMigration"; }
+            get { return "20160602225351_FiilmMigration"; }
         }
 
         public override string ProductVersion
@@ -33,9 +33,17 @@ namespace KinoProjekatMigrations
 
                     b.Property<string>("Naziv");
 
+                    b.Property<string>("Opis");
+
+                    b.Property<string>("OrginalniNaziv");
+
                     b.Property<string>("Reziser");
 
+                    b.Property<string>("Slika");
+
                     b.Property<string>("Uloge");
+
+                    b.Property<string>("VideoLink");
 
                     b.Property<string>("Zanr");
 
@@ -44,12 +52,20 @@ namespace KinoProjekatMigrations
 
             builder.Entity("KinoProjekat.Kino.Models.Termin", b =>
                 {
-                    b.Property<int>("BrojTermina")
+                    b.Property<DateTime>("Datum")
                         .ValueGeneratedOnAdd();
 
                     b.Property<int?>("FilmFilmId");
 
-                    b.Key("BrojTermina");
+                    b.Property<int>("TerminId");
+
+                    b.Property<DateTime>("VrijemePocetka");
+
+                    b.Property<DateTime>("VrijemeZavrsetka");
+
+                    b.Property<int>("ZauzetaMjesta");
+
+                    b.Key("Datum");
                 });
 
             builder.Entity("KinoProjekat.Kino.Models.Termin", b =>

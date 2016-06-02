@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:callisto="using:Callisto.Controls"
-    xmlns:data="using:KinoProjekat.Kino.Views"
+    xmlns:data="using:KinoProjekat.Kino.Models"
     mc:Ignorable="d">
 
     <Grid Background="#FFDCC19F" >
@@ -56,7 +56,14 @@
                             FlipView="{Binding ElementName=flipViewPremijere}">
             </callisto:FlipViewIndicator>
             <TextBlock Text="Ponuda" FontSize="20" Margin="10,10,0,0" />
-            <GridView x:ConnectionId='4' x:Name="gridViewPonuda" Height="170" Background="Transparent" Margin="10,0,10,0"                                                                                   >
+            <GridView x:ConnectionId='4' x:Name="gridViewPonuda" 
+                       Height="170" Background="Transparent" 
+                       Margin="10,0,10,0" 
+                                                     
+                                                                         
+                                                        
+                       IsItemClickEnabled="True"
+                      >
                 <GridView.ItemTemplate>
                     <DataTemplate                       >
 
@@ -67,10 +74,10 @@
                             <StackPanel Orientation="Horizontal">
                                 <Image x:ConnectionId='6'                         Width="170" Height="170" Stretch="Uniform" />
                                 <StackPanel Margin="5,0,0,0">
-                                    <TextBlock x:ConnectionId='7'                        FontSize="20" Foreground="#FFC58634" />
+                                    <TextBlock x:ConnectionId='7'                       FontSize="20" Foreground="#FFC58634" />
                                     <StackPanel Orientation="Horizontal">
                                         <TextBlock Text="Originalni naslov:" FontSize="15" Margin="0,0,5,0" FontWeight="SemiBold" />
-                                        <TextBlock x:ConnectionId='12'                                  FontSize="15" />
+                                        <TextBlock x:ConnectionId='12'                                FontSize="15" />
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
                                         <TextBlock Text="Režiser:" FontSize="15" Margin="0,0,5,0" FontWeight="SemiBold" />

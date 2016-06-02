@@ -1,4 +1,17 @@
 App.xbf
 FolderPravnoLice\UnosPodatakaOOsobiKojaZastupaPravnoLice.xbf
 FolderPravnoLice\UnosPodatakaZaPravnoLice.xbf
+Kino\Views\Detalji.xbf
+Kino\Views\DetaljiRepertoar.xbf
+Kino\Views\GPSLokator.xbf
+Kino\Views\MalaSala.xbf
+Kino\Views\OdabirFilma.xbf
+Kino\Views\OdabirFilmaSamoRepertoar.xbf
+Kino\Views\Otkazivanje.xbf
+Kino\Views\Pocetna.xbf
+Kino\Views\Sala.xbf
+Kino\Views\SrednjaSala.xbf
+Kino\Views\UnosPodatakaZaFizickoLice.xbf
+Kino\Views\UnosPodatakaZaPravnoLice.xbf
+Kino\Views\ZavrsnaForma.xbf
 MainPage.xbf

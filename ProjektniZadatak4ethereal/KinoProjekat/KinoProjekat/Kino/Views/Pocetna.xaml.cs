@@ -46,7 +46,7 @@ namespace KinoProjekat.Kino.Views
         private void buttonRepertoar_Click(object sender, RoutedEventArgs e)
         {
             
-            this.Frame.Navigate(typeof(OdabirFilma), true);
+            this.Frame.Navigate(typeof(OdabirFilmaSamoRepertoar), true);
         }
 
 

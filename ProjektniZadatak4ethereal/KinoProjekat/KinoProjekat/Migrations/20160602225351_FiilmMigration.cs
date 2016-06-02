@@ -5,7 +5,7 @@ using Microsoft.Data.Entity.Migrations.Operations;
 
 namespace KinoProjekatMigrations
 {
-    public partial class FilmMigration : Migration
+    public partial class FiilmMigration : Migration
     {
         public override void Up(MigrationBuilder migration)
         {
@@ -17,8 +17,12 @@ namespace KinoProjekatMigrations
                         //.Annotation("Sqlite:Autoincrement", true),
                     Link = table.Column(type: "TEXT", nullable: true),
                     Naziv = table.Column(type: "TEXT", nullable: true),
+                    Opis = table.Column(type: "TEXT", nullable: true),
+                    OrginalniNaziv = table.Column(type: "TEXT", nullable: true),
                     Reziser = table.Column(type: "TEXT", nullable: true),
+                    Slika = table.Column(type: "TEXT", nullable: true),
                     Uloge = table.Column(type: "TEXT", nullable: true),
+                    VideoLink = table.Column(type: "TEXT", nullable: true),
                     Zanr = table.Column(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
@@ -29,13 +33,16 @@ namespace KinoProjekatMigrations
                 name: "Termin",
                 columns: table => new
                 {
-                    BrojTermina = table.Column(type: "INTEGER", nullable: false),
-                        //.Annotation("Sqlite:Autoincrement", true),
-                    FilmFilmId = table.Column(type: "INTEGER", nullable: true)
+                    Datum = table.Column(type: "TEXT", nullable: false),
+                    FilmFilmId = table.Column(type: "INTEGER", nullable: true),
+                    TerminId = table.Column(type: "INTEGER", nullable: false),
+                    VrijemePocetka = table.Column(type: "TEXT", nullable: false),
+                    VrijemeZavrsetka = table.Column(type: "TEXT", nullable: false),
+                    ZauzetaMjesta = table.Column(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Termin", x => x.BrojTermina);
+                    table.PrimaryKey("PK_Termin", x => x.Datum);
                     table.ForeignKey(
                         name: "FK_Termin_Film_FilmFilmId",
                         columns: x => x.FilmFilmId,

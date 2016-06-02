@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KinoProjekat.Kino.Models;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
@@ -124,16 +125,19 @@ namespace KinoProjekat.Kino.Views
 
         private void gridViewPonuda_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (!samoRepertoar)
-                this.Frame.Navigate(typeof(Detalji));
-            else
-                this.Frame.Navigate(typeof(DetaljiRepertoar));
+           
         }
 
 
         private void checkBoxFilmPoZelji_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(UnosPodatakaZaPravnoLice));
+        }
+
+        private void GridView_ItemClick_11(object sender, ItemClickEventArgs e)
+        {
+            Film film = ((Film)e.ClickedItem);
+            this.Frame.Navigate(typeof(DetaljiRepertoar), film);
         }
 
         /*private void buttonNazad_Click(object sender, RoutedEventArgs e)

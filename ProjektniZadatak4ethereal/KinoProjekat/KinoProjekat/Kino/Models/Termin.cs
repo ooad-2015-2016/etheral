@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace KinoProjekat.Kino.Models
 {
-    class Termin
+    public class Termin
     {
         DateTime datum, vrijemePocetka, vrijemeZavrsetka;
         int zauzetaMjesta;

@@ -1,0 +1,117 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="KinoProjekat.Kino.Views.OdabirFilmaSamoRepertoar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:local="using:KinoProjekat.Kino.Views"
+    xmlns:data="using:KinoProjekat.Kino.Models"
+    xmlns:callisto="using:Callisto.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+
+    <Grid Background="#FFDCC19F" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="0,0,0,0">
+            <StackPanel Orientation="Horizontal" >
+                <Button x:ConnectionId='15'  x:Name="buttonNazad" FontFamily="Segoe MDL2 Assets" Content="&#xE0C4;" Margin="20,20,0,0" HorizontalAlignment="Left" Background="#FFDCC19F"  FontSize="20"  BorderBrush="LightGray"                           Width="90"/>
+                <TextBlock Text="Odabir filma" FontSize="24" Margin="30,20,0,0" HorizontalAlignment="right" Width="973"/>
+            </StackPanel>
+            <TextBlock Text="Odaberite jednu od opcija:" FontSize="15" Margin="10,0,0,0" />
+            <RadioButton x:ConnectionId='2' GroupName="radioButtonGrupa" Content="Fizičko lice" IsChecked="True" Margin="10,0,0,0"                               />
+            <StackPanel Orientation="Horizontal" Margin="10,0,0,20">
+                <RadioButton x:ConnectionId='13' GroupName="radioButtonGrupa" Content="Pravno lice (kompanija / firma)"                                 />
+                <CheckBox x:ConnectionId='14' x:Name="checkBoxFilmPoZelji" Margin="20,0,0,0" Content="Puštanje filma po želji"                                   />
+            </StackPanel>
+            <TextBlock Text="Premijere" FontSize="20" Margin="10,0,0,0" />
+            <FlipView x:ConnectionId='3' x:Name="flipViewPremijere" Height="200" Background="Transparent" >
+                <FlipView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0">
+                                <Image Stretch="Fill" Source="{Binding image1}"  />
+                                <Border Opacity="0.7" Background="Black" Height="40" VerticalAlignment="Bottom" />
+                                <TextBlock Text="{Binding naslov1}"  FontSize="24" Foreground="WhiteSmoke" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,5" />
+                            </Grid>
+                            <Grid Grid.Column="1">
+                                <Image Stretch="Fill" Source="{Binding image2}"  />
+                                <Border Opacity="0.7" Background="Black" Height="40" VerticalAlignment="Bottom" />
+                                <TextBlock Text="{Binding naslov2}"  FontSize="24" Foreground="WhiteSmoke" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,5" />
+                            </Grid>
+                            <Grid Grid.Column="2">
+                                <Image Stretch="Fill" Source="{Binding image3}"  />
+                                <Border Opacity="0.7" Background="Black" Height="40" VerticalAlignment="Bottom" />
+                                <TextBlock Text="{Binding naslov3}"  FontSize="24" Foreground="WhiteSmoke" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,5" />
+                            </Grid>
+                        </Grid>
+                    </DataTemplate>
+                </FlipView.ItemTemplate>
+            </FlipView>
+            <callisto:FlipViewIndicator HorizontalAlignment="Center"
+                            FlipView="{Binding ElementName=flipViewPremijere}">
+            </callisto:FlipViewIndicator>
+            <TextBlock Text="Ponuda" FontSize="20" Margin="10,10,0,0" />
+            <GridView x:ConnectionId='4' x:Name="gridViewPonuda" 
+                       Height="170" Background="Transparent" 
+                       Margin="10,0,10,0" 
+                                                     
+                                                                         
+                                                       
+                       IsItemClickEnabled="True"
+                      >
+                <GridView.ItemTemplate>
+                    <DataTemplate                       >
+
+
+                        <Grid x:ConnectionId='5'>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*" />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Orientation="Horizontal">
+                                <Image x:ConnectionId='6'                         Width="170" Height="170" Stretch="Uniform" />
+                                <StackPanel Margin="5,0,0,0">
+                                    <TextBlock x:ConnectionId='7'                       FontSize="20" Foreground="#FFC58634" />
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Originalni naslov:" FontSize="15" Margin="0,0,5,0" FontWeight="SemiBold" />
+                                        <TextBlock x:ConnectionId='12'                                FontSize="15" />
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Režiser:" FontSize="15" Margin="0,0,5,0" FontWeight="SemiBold" />
+                                        <TextBlock x:ConnectionId='11'                         FontSize="15" />
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Uloge:" FontSize="15" Margin="0,0,5,0" FontWeight="SemiBold" />
+                                        <TextBlock x:ConnectionId='10'                       FontSize="15" />
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Žanr:" FontSize="15" Margin="0,0,5,0" FontWeight="SemiBold" />
+                                        <TextBlock x:ConnectionId='9'                      FontSize="15" />
+                                    </StackPanel>
+                                    <StackPanel >
+                                        <TextBlock Text="IMDB:" FontSize="15" Foreground="#FFC58634" Margin="0,5,0,0"  />
+                                        <HyperlinkButton x:ConnectionId='8' x:Name="buttonLink"                         FontSize="15" />
+                                    </StackPanel>
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+
+                    </DataTemplate>
+                </GridView.ItemTemplate>
+
+
+
+
+            </GridView>
+
+        </StackPanel>
+    </Grid>
+</Page>
+
+

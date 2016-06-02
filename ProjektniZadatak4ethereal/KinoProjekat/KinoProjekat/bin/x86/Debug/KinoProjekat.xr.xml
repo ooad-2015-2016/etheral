@@ -47,6 +47,7 @@
       <RootProperty Name="FontFamily" />
       <RootProperty Name="Height" />
       <RootProperty Name="TextAlignment" />
+      <RootProperty Name="Name" />
       <RootProperty Name="FontStretch" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
@@ -102,6 +103,7 @@
       <RootEvent Name="PointerPressed" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Name" />
       <RootProperty Name="Source" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Stretch" />
@@ -119,30 +121,27 @@
       <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.WebView">
-      <RootProperty Name="Source" />
+      <RootProperty Name="Name" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.RichTextBlock">
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="Blocks" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
+      <RootProperty Name="Name" />
       <RootProperty Name="Content" />
       <RootProperty Name="FontSize" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Documents.Paragraph">
-      <RootProperty Name="Inlines" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="IsMultiSelectCheckBoxEnabled" />
-      <RootProperty Name="Items" />
-      <RootProperty Name="IsItemClickEnabled" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem">
-      <RootProperty Name="Content" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="FontSize" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
       <RootProperty Name="StartPoint" />
@@ -191,8 +190,10 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Margin" />
       <RootProperty Name="ItemsSource" />
+      <RootProperty Name="IsItemClickEnabled" />
       <RootProperty Name="ItemTemplate" />
       <RootEvent Name="SelectionChanged" />
+      <RootEvent Name="ItemClick" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
@@ -204,6 +205,7 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="KinoProjekat.Kino.Views.OdabirFilma" />
+    <RootType FullName="KinoProjekat.Kino.Views.OdabirFilmaSamoRepertoar" />
     <RootType FullName="KinoProjekat.Kino.Views.Otkazivanje" />
     <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
       <RootProperty Name="HorizontalAlignment" />

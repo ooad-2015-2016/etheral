@@ -131,7 +131,6 @@
     <Compile Include="Kino\Views\DetaljiRepertoar.xaml.cs">
       <DependentUpon>DetaljiRepertoar.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Kino\Views\Film.cs" />
     <Compile Include="Kino\Views\GPSLokator.xaml.cs">
       <DependentUpon>GPSLokator.xaml</DependentUpon>
     </Compile>
@@ -141,6 +140,9 @@
     <Compile Include="Kino\Views\MyFlipViewItem.cs" />
     <Compile Include="Kino\Views\OdabirFilma.xaml.cs">
       <DependentUpon>OdabirFilma.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kino\Views\OdabirFilmaSamoRepertoar.xaml.cs">
+      <DependentUpon>OdabirFilmaSamoRepertoar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Kino\Views\Otkazivanje.xaml.cs">
       <DependentUpon>Otkazivanje.xaml</DependentUpon>
@@ -178,20 +180,20 @@
     <Compile Include="Migrations\20160425000000_ZaposlenikMigration.designer.cs">
       <DependentUpon>20160425000000_ZaposlenikMigration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20160425120630_FilmMigration.cs" />
-    <Compile Include="Migrations\20160425120630_FilmMigration.designer.cs">
-      <DependentUpon>20160425120630_FilmMigration.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\20160514131708_Firma.cs" />
     <Compile Include="Migrations\20160514131708_Firma.designer.cs">
       <DependentUpon>20160514131708_Firma.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20160602225351_FiilmMigration.cs" />
+    <Compile Include="Migrations\20160602225351_FiilmMigration.designer.cs">
+      <DependentUpon>20160602225351_FiilmMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\FilmDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\FirmaDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\SalaMigration.cs" />
     <Compile Include="Migrations\SalaMigration.designer.cs">
       <DependentUpon>SalaMigration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\FilmDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\LiceDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\RezervacijaDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\SalaDbContextModelSnapshot.cs" />
@@ -205,13 +207,26 @@
     <None Include="KinoProjekat_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Alice3.jpg" />
     <Content Include="Assets\angryBirds.jpg" />
     <Content Include="Assets\angryBirds1.jpg" />
+    <Content Include="Assets\apok.jpg" />
+    <Content Include="Assets\apok2.jpg" />
     <Content Include="Assets\captainAmerica.jpg" />
+    <Content Include="Assets\cat.jpg" />
     <Content Include="Assets\jpeg.jpg" />
+    <Content Include="Assets\jungle.jpg" />
+    <Content Include="Assets\jungle2.jpg" />
+    <Content Include="Assets\komsije.jpg" />
+    <Content Include="Assets\Man.jpg" />
+    <Content Include="Assets\Man2.jpg" />
+    <Content Include="Assets\moneymonstersmall.jpg" />
     <Content Include="Assets\mothersDay.jpg" />
+    <Content Include="Assets\nice.png" />
     <Content Include="Assets\ourKindOfTraitor.jpg" />
     <Content Include="Assets\pocetna.jpg" />
+    <Content Include="Assets\warcraft.jpg" />
+    <Content Include="Assets\warcraft2.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -251,6 +266,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Kino\Views\OdabirFilma.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kino\Views\OdabirFilmaSamoRepertoar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

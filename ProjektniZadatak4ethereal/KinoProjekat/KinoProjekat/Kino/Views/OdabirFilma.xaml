@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:callisto="using:Callisto.Controls"
-    xmlns:data="using:KinoProjekat.Kino.Views"
+    xmlns:data="using:KinoProjekat.Kino.Models"
     mc:Ignorable="d">
 
     <Grid Background="#FFDCC19F" >
@@ -56,7 +56,14 @@
                             FlipView="{Binding ElementName=flipViewPremijere}">
             </callisto:FlipViewIndicator>
             <TextBlock Text="Ponuda" FontSize="20" Margin="10,10,0,0" />
-            <GridView x:Name="gridViewPonuda" Height="170" Background="Transparent" Margin="10,0,10,0" ItemsSource="{x:Bind Filmovi}" SelectionChanged="gridViewPonuda_SelectionChanged" >
+            <GridView x:Name="gridViewPonuda" 
+                       Height="170" Background="Transparent" 
+                       Margin="10,0,10,0" 
+                       ItemsSource="{x:Bind Filmovi}"
+                       SelectionChanged="gridViewPonuda_SelectionChanged"
+                       ItemClick="GridView_ItemClick_11"
+                       IsItemClickEnabled="True"
+                      >
                 <GridView.ItemTemplate>
                     <DataTemplate x:DataType="data:Film">
 
@@ -65,28 +72,28 @@
                                 <ColumnDefinition Width="1*" />
                             </Grid.ColumnDefinitions>
                             <StackPanel Orientation="Horizontal">
-                                <Image Source="{x:Bind image}" Width="170" Height="170" Stretch="Uniform" />
+                                <Image Source="{x:Bind Slika}" Width="170" Height="170" Stretch="Uniform" />
                                 <StackPanel Margin="5,0,0,0">
-                                    <TextBlock Text="{x:Bind naslov}" FontSize="20" Foreground="#FFC58634" />
+                                    <TextBlock Text="{x:Bind Naziv}" FontSize="20" Foreground="#FFC58634" />
                                     <StackPanel Orientation="Horizontal">
                                         <TextBlock Text="Originalni naslov:" FontSize="15" Margin="0,0,5,0" FontWeight="SemiBold" />
-                                        <TextBlock Text="{x:Bind originalniNaslov}" FontSize="15" />
+                                        <TextBlock Text="{x:Bind OrginalniNaziv}" FontSize="15" />
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
                                         <TextBlock Text="Režiser:" FontSize="15" Margin="0,0,5,0" FontWeight="SemiBold" />
-                                        <TextBlock Text="{x:Bind reziser}" FontSize="15" />
+                                        <TextBlock Text="{x:Bind Reziser}" FontSize="15" />
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
                                         <TextBlock Text="Uloge:" FontSize="15" Margin="0,0,5,0" FontWeight="SemiBold" />
-                                        <TextBlock Text="{x:Bind uloge}" FontSize="15" />
+                                        <TextBlock Text="{x:Bind Uloge}" FontSize="15" />
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
                                         <TextBlock Text="Žanr:" FontSize="15" Margin="0,0,5,0" FontWeight="SemiBold" />
-                                        <TextBlock Text="{x:Bind zanr}" FontSize="15" />
+                                        <TextBlock Text="{x:Bind Zanr}" FontSize="15" />
                                     </StackPanel>
                                     <StackPanel >
                                         <TextBlock Text="IMDB:" FontSize="15" Foreground="#FFC58634" Margin="0,5,0,0"  />
-                                        <HyperlinkButton x:Name="buttonLink" Content="{x:Bind link}" FontSize="15" />
+                                        <HyperlinkButton x:Name="buttonLink" Content="{x:Bind Link}" FontSize="15" />
                                     </StackPanel>
                                 </StackPanel>
                             </StackPanel>

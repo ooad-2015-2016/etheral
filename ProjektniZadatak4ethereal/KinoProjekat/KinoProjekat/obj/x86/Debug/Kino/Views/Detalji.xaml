@@ -6,7 +6,6 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*" />
@@ -25,54 +24,54 @@
                     <GradientStop Color="BurlyWood" Offset="1.0" />
                 </LinearGradientBrush>
             </Border.Background>
+            <Button x:ConnectionId='12'  x:Name="buttonNazad" FontFamily="Segoe MDL2 Assets" Content="&#xE0C4;" Margin="328,10,0,198" HorizontalAlignment="Left" Background="#FFDCC19F"  FontSize="12"  Foreground="AntiqueWhite" BorderBrush="LightGray"                           Width="90" RenderTransformOrigin="3.178,-2.672" Height="32"/>
         </Border>
-        <Image Source="/Assets/angryBirds1.jpg" HorizontalAlignment="Left" Stretch="Uniform" Margin="10,10,0,10" />
+        <Image x:ConnectionId='1'  Name="Slikaa" Source="/Assets/angryBirds1.jpg" HorizontalAlignment="Left" Stretch="Uniform" Margin="10,10,0,10" />
         <StackPanel Grid.Column="1">
-            <TextBlock Text="Angry Birds film" Grid.Column="1" FontWeight="SemiBold" FontSize="24" Foreground="White"  />
+            <TextBlock x:ConnectionId='6' Name="NazivFilma"  Text="Angry Birds film" Grid.Column="1" FontWeight="SemiBold" FontSize="24" Foreground="White" Margin="108,10,0,10" />
             <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
-                <TextBlock Text="Originalni naslov:" FontSize="20" Foreground="White" FontWeight="SemiBold" />
-                <TextBlock Text="Angry Birds Movie" FontSize="20" Foreground="White" Margin="5,0,0,0" />
+                <TextBlock  Text="Originalni naslov:" FontSize="20" Foreground="White" FontWeight="SemiBold" />
+                <TextBlock x:ConnectionId='11' Name="OrginalniNaslov" Text="Angry Birds Movie" FontSize="20" Foreground="White" Margin="5,0,0,0" />
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
                 <TextBlock Text="Režiser:" FontSize="20" Foreground="White" FontWeight="SemiBold" />
-                <TextBlock Text="Fergal Reilly" FontSize="20" Foreground="White" Margin="5,0,0,0" />
+                <TextBlock x:ConnectionId='10' Name="Reziser" Text="Fergal Reilly" FontSize="20" Foreground="White" Margin="5,0,0,0" />
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
                 <TextBlock Text="Uloge:" FontSize="20" Foreground="White" FontWeight="SemiBold" />
-                <TextBlock Text="Jason Sudeikis, Josh Gad, Danny McBride" FontSize="20" Foreground="White" Margin="5,0,0,0" />
+                <TextBlock x:ConnectionId='9' Name="Ulogee" Text="Jason Sudeikis, Josh Gad, Danny McBride" FontSize="20" Foreground="White" Margin="5,0,0,0" />
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
                 <TextBlock Text="Žanr:" FontSize="20" Foreground="White" FontWeight="SemiBold" />
-                <TextBlock Text="animirana komedija" FontSize="20" Foreground="White" Margin="5,0,0,0" />
+                <TextBlock x:ConnectionId='8' Name="Zanr" Text="animirana komedija" FontSize="20" Foreground="White" Margin="5,0,0,0" />
             </StackPanel>
-            <Button x:ConnectionId='2' x:Name="buttonRezervisi" Content="Rezerviši" Foreground="White" FontSize="20"                               />
+            <Button x:ConnectionId='7' x:Name="buttonRezervisi" Content="Rezerviši" Foreground="White" FontSize="20"                               />
         </StackPanel>
         <StackPanel Grid.Column="2">
             <TextBlock Text="Termini prikazivanja:" Margin="0,10,0,0" Foreground="#FFC58634" FontSize="20" FontWeight="SemiBold" />
-            <ListView x:ConnectionId='1' x:Name="listViewTermini" IsMultiSelectCheckBoxEnabled="False">
-                <ListViewItem Content="15:25" Foreground="#FFC58634" FontSize="15" />
-                <ListViewItem Content="17:30" Foreground="#FFC58634" FontSize="15" />
-            </ListView>
+            <ListView x:ConnectionId='5' x:Name="listViewTermini" IsMultiSelectCheckBoxEnabled="False"/>
         </StackPanel>
 
-        <Grid Grid.Row="1" Grid.ColumnSpan="3">
+        <Grid Grid.Row="1" Grid.ColumnSpan="3" Margin="41,0,-41,0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*" />
                 <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
             <StackPanel Margin="10,0,10,0">
                 <TextBlock Text="Sinopsis:" FontSize="24" FontWeight="SemiBold" Foreground="#FFC58634" Margin="0,0,0,10" />
-                <RichTextBlock TextWrapping="Wrap" FontSize="20">
-                    <Paragraph>
-                        U animniranoj 3D komediji Angry Birds Film konačno ćemo otkriti zbog čega su ptice toliko bijesne.Radnja filma vodi nas na otok nastanjen isključivo sretnim pticama – ili barem većinom njih. U ovom raju, Crveni (ptica s problematičnim temperamentom), ludi Chuck i nestabilni Bomba oduvijek su bili autsajderi. Ali kada otok posjete misteriozne zelene svinje, upravo će na ovu trojicu pasti zadatak otkriti zbog čega su novopridošlice posjetile baš njihovo područje...
-                    </Paragraph>
-                </RichTextBlock>
+                <TextBlock x:ConnectionId='3' Name="Sinopsis" FontSize="20" 
+                     Text=" U animniranoj 3D komediji Angry Birds Film konačno ćemo otkriti zbog čega su ptice toliko bijesne.Radnja filma vodi nas na otok nastanjen isključivo sretnim pticama – ili barem većinom njih. U ovom raju, Crveni (ptica s problematičnim temperamentom), ludi Chuck i nestabilni Bomba oduvijek su bili autsajderi. Ali kada otok posjete misteriozne zelene svinje, upravo će na ovu trojicu pasti zadatak otkriti zbog čega su novopridošlice posjetile baš njihovo područje..."
+                     TextWrapping="Wrap"  />
+
                 <TextBlock Text="IMDB:" FontSize="24" FontWeight="SemiBold" Foreground="#FFC58634" Margin="0,10,0,10" />
-                <HyperlinkButton Content="http://www.imdb.com/title/tt1985949/" FontSize="20" />
+                <HyperlinkButton x:ConnectionId='4' Name="IMDB" Content="http://www.imdb.com/title/tt1985949/" FontSize="20" />
             </StackPanel>
-            <WebView Grid.Column="1" Source="https://www.youtube.com/embed/QRmKa7vvct4" Margin="10,10,10,10" />
-            
+            <WebView x:ConnectionId='2' HorizontalAlignment="Left" Name="WebStranica" Height="470" Margin="630,0,0,0" VerticalAlignment="Top" Width="588" Grid.ColumnSpan="2"/>
+            <ScrollViewer Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="301,169,0,0" VerticalAlignment="Top" Width="100"/>
+
+
         </Grid>
     </Grid>
 </Page>
+
 
