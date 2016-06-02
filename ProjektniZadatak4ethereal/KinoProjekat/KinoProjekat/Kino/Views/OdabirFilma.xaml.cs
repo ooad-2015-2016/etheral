@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -41,7 +42,6 @@ namespace KinoProjekat.Kino.Views
 
             koji = true;
             checkBoxFilmPoZelji.IsEnabled = false;
-
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -75,7 +75,30 @@ namespace KinoProjekat.Kino.Views
             /*itemsG.Add(new MyGridViewItem { image = "/Assets/angryBirds1.jpg", naslov = "Angry Birds film", originalniNaslov = "The Angry Birds Movie",
             reziser = "Fergal Reilly", uloge = "Jason Sudeikis, Josh Gad, Danny McBride", zanr = "Animirana komedija", link = "http://www.imdb.com/title/tt1985949/"});*/
 
+            Frame rootFrame = Window.Current.Content as Frame;
+
+            string myPages = "";
+            foreach (PageStackEntry page in rootFrame.BackStack)
+            {
+                myPages += page.SourcePageType.ToString() + "\n";
+            }
+            //stackCount.Text = myPages;
+
+            if (rootFrame.CanGoBack)
+            {
+                // Show UI in title bar if opted-in and in-app backstack is not empty.
+                SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility =
+                    AppViewBackButtonVisibility.Visible;
+            }
+            else
+            {
+                // Remove the UI from the title bar if in-app back stack is empty.
+                SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility =
+                    AppViewBackButtonVisibility.Collapsed;
+            }
+
         }
+
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
@@ -102,9 +125,9 @@ namespace KinoProjekat.Kino.Views
             this.Frame.Navigate(typeof(UnosPodatakaZaPravnoLice));
         }
 
-        private void buttonNazad_Click(object sender, RoutedEventArgs e)
+        /*private void buttonNazad_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Pocetna));
-        }
+        }*/
     }
 }

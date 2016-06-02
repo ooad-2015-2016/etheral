@@ -7,13 +7,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Background="BlanchedAlmond">
+    <StackPanel Background="#FFE8CBA6">
         <StackPanel Orientation="Horizontal" >
             <Button  x:Name="buttonNazad" FontFamily="Segoe MDL2 Assets" Content="&#xE0C4;" Margin="20,20,0,0" HorizontalAlignment="Left" Background="Bisque"  FontSize="20"  BorderBrush="LightGray" Click="buttonNazad_Click" Width="90"/>
             <TextBlock Text="Unos ličnih podataka" FontSize="24" Margin="30,20,0,0" HorizontalAlignment="right" Width="973"/>
         </StackPanel>
         
-         <Grid Background="Bisque" Margin="20,20,0,0">
+         <Grid Margin="20,20,0,0">
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*" />
@@ -35,6 +35,12 @@
             <TextBlock x:Name="textBlockTelefon" Text="Broj telefona*:" FontSize="15" Grid.Column="2" />
             <TextBlock x:Name="textBlockEmail" Text="E-mail*:" FontSize="15" Grid.Row="2" Grid.Column="2" />
             <TextBlock x:Name="textBlockPotvrdaEmail" Text="Potvrdite e-mail*:" FontSize="15" Grid.Column="2" Grid.Row="4" />
+            <Border Grid.Row="1" Background="White" Margin="0,0,0,10" />
+            <Border Grid.Row="3" Background="White" Margin="0,0,0,10" />
+            <Border Grid.Row="5" Background="White" />
+            <Border Grid.Row="1" Grid.Column="2" Background="White" Margin="0,0,0,10" />
+            <Border Grid.Row="3" Grid.Column="2" Background="White" Margin="0,0,0,10" />
+            <Border Grid.Row="5" Grid.Column="2" Background="White" />
             <TextBox x:Name="textBoxIme" Grid.Row="1" Margin="0,0,0,10" />
             <TextBox x:Name="textBoxPrezime" Grid.Row="3" Margin="0,0,0,10" />
             <TextBox x:Name="textBoxAdresa" Grid.Row="5" />
@@ -44,6 +50,6 @@
         </Grid>
         <TextBlock Text="Napomena:" Margin="20,20,0,0" FontSize="15" FontWeight="Bold" />
         <TextBlock Text="Polja označena zvjezdicom (*) su obavezna za unos." Margin="20,0,0,0" FontSize="15" FontWeight="SemiBold" />
-        <Button x:Name="buttonName" FontFamily="Segoe MDL2 Assets" Content="&#xEA62;" HorizontalAlignment="Right" Margin="0,20,20,0" Width="90" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" FontSize="20" BorderBrush="LightGray" Click="buttonName_Click" />
+        <Button x:Name="buttonName" FontFamily="Segoe MDL2 Assets" Content="&#xEA62;" HorizontalAlignment="Right" Margin="0,20,20,0" Width="90" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  FontSize="20" BorderBrush="LightGray" Click="buttonName_Click" />
     </StackPanel>
 </Page>

@@ -3012,7 +3012,6 @@ C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\K
 C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\DetaljiRepertoar.xaml
 C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\DetaljiRepertoar.xbf
 C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Kino\Views\DetaljiRepertoar.xbf
-C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\KinoProjekat.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\New folder (2)\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\ApplicationInsights.config
 C:\Users\User\Desktop\New folder (2)\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\EntityFramework.Commands.dll
 C:\Users\User\Desktop\New folder (2)\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\EntityFramework.Commands.xml
@@ -3309,3 +3308,9 @@ C:\Users\User\Desktop\New folder (2)\ethereal\ProjektniZadatak4ethereal\KinoProj
 C:\Users\User\Desktop\New folder (2)\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\GPSLokator.g.cs
 C:\Users\User\Desktop\New folder (2)\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\GPSLokator.xaml
 C:\Users\User\Desktop\New folder (2)\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\GPSLokator.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Kino\Views\GPSLokator.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\GPSLokator.g.i.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\GPSLokator.g.cs
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\GPSLokator.xaml
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\GPSLokator.xbf
+C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\KinoProjekat.csprojResolveAssemblyReference.cache

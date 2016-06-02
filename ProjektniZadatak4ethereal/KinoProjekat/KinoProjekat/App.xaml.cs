@@ -21,6 +21,7 @@ using KinoProjekat.Kino.Views;
 
 namespace KinoProjekat
 {
+
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
     /// </summary>
@@ -43,6 +44,12 @@ namespace KinoProjekat
                 db.Database.ApplyMigrations();
                 DefaultPodaci.Initialize(db);
             }
+
+
+            
+
+
+
         }
 
         /// <summary>
