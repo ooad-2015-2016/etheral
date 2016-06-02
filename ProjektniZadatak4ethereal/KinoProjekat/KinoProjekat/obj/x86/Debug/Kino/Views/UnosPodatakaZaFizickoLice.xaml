@@ -28,27 +28,28 @@
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
-            <TextBlock x:Name="textBlockIme" Text="Ime*:" FontSize="15" />
-            <TextBlock x:Name="textBlockPrezime" Text="Prezime*:" FontSize="15" Grid.Row="2" />
-            <TextBlock x:Name="textBlockAdresa" Text="Adresa:" FontSize="15" Grid.Row="4" />
-            <TextBlock x:Name="textBlockTelefon" Text="Broj telefona*:" FontSize="15" Grid.Column="2" />
-            <TextBlock x:Name="textBlockEmail" Text="E-mail*:" FontSize="15" Grid.Row="2" Grid.Column="2" />
-            <TextBlock x:Name="textBlockPotvrdaEmail" Text="Potvrdite e-mail*:" FontSize="15" Grid.Column="2" Grid.Row="4" />
+            <TextBlock x:ConnectionId='2' x:Name="textBlockIme" Text="Ime*:" FontSize="15" />
+            <TextBlock x:ConnectionId='3' x:Name="textBlockPrezime" Text="Prezime*:" FontSize="15" Grid.Row="2" />
+            <TextBlock x:ConnectionId='4' x:Name="textBlockAdresa" Text="Adresa:" FontSize="15" Grid.Row="4" />
+            <TextBlock x:ConnectionId='5' x:Name="textBlockTelefon" Text="Broj telefona*:" FontSize="15" Grid.Column="2" />
+            <TextBlock x:ConnectionId='6' x:Name="textBlockEmail" Text="E-mail*:" FontSize="15" Grid.Row="2" Grid.Column="2" />
+            <TextBlock x:ConnectionId='7' x:Name="textBlockPotvrdaEmail" Text="Potvrdite e-mail*:" FontSize="15" Grid.Column="2" Grid.Row="4" />
             <Border Grid.Row="1" Background="White" Margin="0,0,0,10" />
             <Border Grid.Row="3" Background="White" Margin="0,0,0,10" />
             <Border Grid.Row="5" Background="White" />
             <Border Grid.Row="1" Grid.Column="2" Background="White" Margin="0,0,0,10" />
             <Border Grid.Row="3" Grid.Column="2" Background="White" Margin="0,0,0,10" />
             <Border Grid.Row="5" Grid.Column="2" Background="White" />
-            <TextBox x:Name="textBoxIme" Grid.Row="1" Margin="0,0,0,10" />
-            <TextBox x:Name="textBoxPrezime" Grid.Row="3" Margin="0,0,0,10" />
-            <TextBox x:Name="textBoxAdresa" Grid.Row="5" />
-            <TextBox x:Name="textBoxTelefon" Grid.Row="1" Grid.Column="2" Margin="0,0,0,10" />
-            <TextBox x:Name="textBoxEmail" Grid.Row="3" Grid.Column="2" Margin="0,0,0,10" />
-            <TextBox x:Name="textBoxPotvrdaEmail" Grid.Row="5" Grid.Column="2" />
+            <TextBox x:ConnectionId='8' x:Name="textBoxIme" Grid.Row="1" Margin="0,0,0,10" />
+            <TextBox x:ConnectionId='9' x:Name="textBoxPrezime" Grid.Row="3" Margin="0,0,0,10" />
+            <TextBox x:ConnectionId='10' x:Name="textBoxAdresa" Grid.Row="5" />
+            <TextBox x:ConnectionId='11' x:Name="textBoxTelefon" Grid.Row="1" Grid.Column="2" Margin="0,0,0,10" />
+            <TextBox x:ConnectionId='12' x:Name="textBoxEmail" Grid.Row="3" Grid.Column="2" Margin="0,0,0,10" />
+            <TextBox x:ConnectionId='13' x:Name="textBoxPotvrdaEmail" Grid.Row="5" Grid.Column="2" />
         </Grid>
         <TextBlock Text="Napomena:" Margin="20,20,0,0" FontSize="15" FontWeight="Bold" />
         <TextBlock Text="Polja označena zvjezdicom (*) su obavezna za unos." Margin="20,0,0,0" FontSize="15" FontWeight="SemiBold" />
-        <Button x:Name="buttonName" FontFamily="Segoe MDL2 Assets" Content="&#xEA62;" HorizontalAlignment="Right" Margin="0,20,20,0" Width="90" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  FontSize="20" BorderBrush="LightGray" Click="buttonName_Click" />
+        <Button x:ConnectionId='1' x:Name="buttonName" FontFamily="Segoe MDL2 Assets" Content="&#xEA62;" HorizontalAlignment="Right" Margin="0,20,20,0" Width="90" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  FontSize="20" BorderBrush="LightGray"                          />
     </StackPanel>
 </Page>
+

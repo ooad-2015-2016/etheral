@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using KinoProjekat.Kino.Models;
+using Windows.UI.Core;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -28,6 +29,21 @@ namespace KinoProjekat.Kino.Views
         {
             this.InitializeComponent();
             
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            SystemNavigationManager.GetForCurrentView().BackRequested += UnosPodatakaZaPravnoLice_BackRequested;
+        }
+
+        private void UnosPodatakaZaPravnoLice_BackRequested(object sender, BackRequestedEventArgs e)
+        {
+            if (this.Frame.CanGoBack) this.Frame.GoBack();
+        }
+
+        protected override void OnNavigatingFrom(NavigatingCancelEventArgs e)
+        {
+            SystemNavigationManager.GetForCurrentView().BackRequested -= UnosPodatakaZaPravnoLice_BackRequested;
         }
 
         private void buttonName_Click(object sender, RoutedEventArgs e)
@@ -74,9 +90,9 @@ namespace KinoProjekat.Kino.Views
 
         }
 
-        private void buttonNazad_Click(object sender, RoutedEventArgs e)
+        /*private void buttonNazad_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(OdabirFilma));
-        }
+        }*/
     }
 }

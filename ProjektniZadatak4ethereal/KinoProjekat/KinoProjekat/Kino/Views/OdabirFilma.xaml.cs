@@ -89,6 +89,8 @@ namespace KinoProjekat.Kino.Views
                 // Show UI in title bar if opted-in and in-app backstack is not empty.
                 SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility =
                     AppViewBackButtonVisibility.Visible;
+
+                SystemNavigationManager.GetForCurrentView().BackRequested += OdabirFilma_BackRequested;
             }
             else
             {
@@ -99,6 +101,15 @@ namespace KinoProjekat.Kino.Views
 
         }
 
+        protected override void OnNavigatingFrom(NavigatingCancelEventArgs e)
+        {
+            SystemNavigationManager.GetForCurrentView().BackRequested -= OdabirFilma_BackRequested;
+        }
+
+        private void OdabirFilma_BackRequested(object sender, BackRequestedEventArgs e)
+        {
+            if (this.Frame.CanGoBack) this.Frame.GoBack();
+        }
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {

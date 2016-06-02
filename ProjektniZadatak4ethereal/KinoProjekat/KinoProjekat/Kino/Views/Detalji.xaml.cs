@@ -30,7 +30,22 @@ namespace KinoProjekat.Kino.Views
             this.InitializeComponent();
             
         }
-        
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            //base.OnNavigatedTo(e);
+            SystemNavigationManager.GetForCurrentView().BackRequested += Detalji_BackRequested;
+        }
+
+        protected override void OnNavigatingFrom(NavigatingCancelEventArgs e)
+        {
+            SystemNavigationManager.GetForCurrentView().BackRequested -= Detalji_BackRequested;
+        }
+
+        private void Detalji_BackRequested(object sender, BackRequestedEventArgs e)
+        {
+            if (this.Frame.CanGoBack) this.Frame.GoBack();
+        }
 
         private void buttonRezervisi_Click(object sender, RoutedEventArgs e)
         {
@@ -44,10 +59,10 @@ namespace KinoProjekat.Kino.Views
 
         }
 
-        private void buttonNazad_Click(object sender, RoutedEventArgs e)
+        /*private void buttonNazad_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(OdabirFilma));
-        }
+        }*/
 
         /*protected override void OnNavigatedTo(NavigationEventArgs e)
         {

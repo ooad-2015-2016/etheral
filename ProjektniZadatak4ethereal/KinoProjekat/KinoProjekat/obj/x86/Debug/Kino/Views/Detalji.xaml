@@ -25,11 +25,10 @@
                     <GradientStop Color="BurlyWood" Offset="1.0" />
                 </LinearGradientBrush>
             </Border.Background>
-            <Button x:ConnectionId='3'  x:Name="buttonNazad" FontFamily="Segoe MDL2 Assets" Content="&#xE0C4;" Margin="328,10,0,198" HorizontalAlignment="Left" Background="#FFDCC19F"  FontSize="12"  Foreground="AntiqueWhite" BorderBrush="LightGray"                           Width="90" RenderTransformOrigin="3.178,-2.672" Height="32"/>
         </Border>
         <Image Source="/Assets/angryBirds1.jpg" HorizontalAlignment="Left" Stretch="Uniform" Margin="10,10,0,10" />
         <StackPanel Grid.Column="1">
-            <TextBlock Text="Angry Birds film" Grid.Column="1" FontWeight="SemiBold" FontSize="24" Foreground="White" Margin="108,10,0,10" />
+            <TextBlock Text="Angry Birds film" Grid.Column="1" FontWeight="SemiBold" FontSize="24" Foreground="White"  />
             <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
                 <TextBlock Text="Originalni naslov:" FontSize="20" Foreground="White" FontWeight="SemiBold" />
                 <TextBlock Text="Angry Birds Movie" FontSize="20" Foreground="White" Margin="5,0,0,0" />

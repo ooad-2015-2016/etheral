@@ -3313,4 +3313,3 @@ C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\K
 C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\GPSLokator.g.cs
 C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\GPSLokator.xaml
 C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\Kino\Views\GPSLokator.xbf
-C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\KinoProjekat.csprojResolveAssemblyReference.cache

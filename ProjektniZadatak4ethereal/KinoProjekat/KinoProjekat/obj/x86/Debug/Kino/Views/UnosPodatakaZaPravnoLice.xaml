@@ -9,8 +9,8 @@
 
     <StackPanel Background="#FFE8CBA6" >
         <StackPanel Orientation="Horizontal" >
-            <Button x:ConnectionId='21'  x:Name="buttonNazad" FontFamily="Segoe MDL2 Assets" Content="&#xE0C4;" Margin="20,20,0,0" HorizontalAlignment="Left" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  FontSize="20"  BorderBrush="LightGray"                           Width="90"/>
-            <TextBlock Text="Pravno lice" FontSize="24" Margin="30,20,0,0" HorizontalAlignment="right" Width="973"/>
+            
+            <TextBlock Text="Pravno lice" FontSize="24" Margin="20,20,0,0" HorizontalAlignment="right" Width="973"/>
         </StackPanel>
 
         <Grid Margin="20,0,0,0">

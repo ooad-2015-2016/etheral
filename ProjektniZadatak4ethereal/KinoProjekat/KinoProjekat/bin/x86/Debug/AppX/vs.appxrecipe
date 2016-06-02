@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-02T20:15:38.235</Modified>
+      <Modified>2016-06-02T22:30:41.319</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\KinoProjekat.exe">
       <PackagePath>entrypoint\KinoProjekat.exe</PackagePath>
-      <Modified>2016-06-02T20:15:36.984</Modified>
+      <Modified>2016-06-02T22:30:40.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samira\.nuget\packages\Callisto\1.4.0\lib\netcore451\Callisto.dll">
       <PackagePath>Callisto.dll</PackagePath>
@@ -626,11 +626,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-06-02T19:11:39.026</Modified>
+      <Modified>2016-06-02T22:23:35.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samira\Desktop\backup\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Core\KinoProjekat.exe">
       <PackagePath>KinoProjekat.exe</PackagePath>
-      <Modified>2016-06-02T20:15:38.224</Modified>
+      <Modified>2016-06-02T22:30:41.316</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
