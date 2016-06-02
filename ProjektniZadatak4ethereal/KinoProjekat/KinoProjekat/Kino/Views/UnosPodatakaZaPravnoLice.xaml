@@ -7,12 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Background="Bisque" >
+    <StackPanel Background="#FFE8CBA6" >
         <StackPanel Orientation="Horizontal" >
             <Button  x:Name="buttonNazad" FontFamily="Segoe MDL2 Assets" Content="&#xE0C4;" Margin="20,20,0,0" HorizontalAlignment="Left" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  FontSize="20"  BorderBrush="LightGray" Click="buttonNazad_Click" Width="90"/>
             <TextBlock Text="Pravno lice" FontSize="24" Margin="30,20,0,0" HorizontalAlignment="right" Width="973"/>
         </StackPanel>
-        
+
         <Grid Margin="20,0,0,0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*" />
@@ -35,6 +35,9 @@
             </Border>
             <TextBlock x:Name="textBlockNaziv" Text="Naziv pravnog lica*:" FontSize="15" VerticalAlignment="Center" />
             <TextBlock x:Name="textBlockAdresaPravnog" Text="Adresa pravnog lica:" FontSize="15" Grid.Row="1" VerticalAlignment="Center" />
+            <Border Grid.Column="1" Background="White" Margin="0,0,0,10" />
+            <Border Grid.Column="1" Grid.Row="1" Background="White" Margin="0,0,0,10" />
+            <Border Grid.Column="1" Grid.Row="2" Background="White" Margin="0,0,0,10" />
             <TextBlock x:Name="textBlockRacun" Text="Transakcijski račun:" FontSize="15" Grid.Row="2" VerticalAlignment="Center"/>
             <TextBox x:Name="textBoxNaziv" Grid.Column="1" Margin="0,0,0,10" />
             <TextBox x:Name="textBoxAdresaPravnog" Grid.Column="1" Grid.Row="1" Margin="0,0,0,10" />
@@ -70,6 +73,12 @@
             <TextBlock x:Name="textBlockEmail" Text="E-mail*:" FontSize="15" VerticalAlignment="Center" Grid.Row="3"/>
             <TextBlock x:Name="textBlockPotvrdaEmail" Text="Potvrdite e-mail*:" FontSize="15" Grid.Row="4" VerticalAlignment="Center" />
             <TextBlock x:Name="textBlockTelefon" Text="Broj telefona*:" FontSize="15" Grid.Row="5" VerticalAlignment="Center"/>
+            <Border Grid.Column="1" Background="White" Margin="0,0,0,10" />
+            <Border Grid.Column="1" Grid.Row="1" Background="White" Margin="0,0,0,10" />
+            <Border Grid.Column="1" Grid.Row="2" Background="White" Margin="0,0,0,10" />
+            <Border Grid.Column="1" Grid.Row="3" Background="White" Margin="0,0,0,10" />
+            <Border Grid.Column="1" Grid.Row="4" Background="White" Margin="0,0,0,10" />
+            <Border Grid.Column="1" Grid.Row="5" Background="White" Margin="0,0,0,10" />
             <TextBox x:Name="textBoxIme" Grid.Column="1" Margin="0,0,0,10" />
             <TextBox x:Name="textBoxPrezime" Grid.Column="1" Grid.Row="1" Margin="0,0,0,10" />
             <TextBox x:Name="textBoxBrojLicne" Grid.Column="1" Grid.Row="2" Margin="0,0,0,10" />
