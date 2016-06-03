@@ -137,7 +137,7 @@ namespace KinoProjekat.Kino.Views
         private void GridView_ItemClick_11(object sender, ItemClickEventArgs e)
         {
             Film film = ((Film)e.ClickedItem);
-            this.Frame.Navigate(typeof(DetaljiRepertoar), film);
+            this.Frame.Navigate(typeof(Detalji), film);
         }
 
         /*private void buttonNazad_Click(object sender, RoutedEventArgs e)

@@ -20,7 +20,7 @@
             <TextBlock Text="Odaberite jednu od opcija:" FontSize="15" Margin="10,0,0,0" />
             <RadioButton x:ConnectionId='2' GroupName="radioButtonGrupa" Content="Fizičko lice" IsChecked="True" Margin="10,0,0,0"                               />
             <StackPanel Orientation="Horizontal" Margin="10,0,0,20">
-                <RadioButton x:ConnectionId='13' GroupName="radioButtonGrupa" Content="Pravno lice (kompanija / firma)"                                 />
+                <RadioButton x:ConnectionId='13' Name="Pravno" GroupName="radioButtonGrupa" Content="Pravno lice (kompanija / firma)"                                 />
                 <CheckBox x:ConnectionId='14' x:Name="checkBoxFilmPoZelji" Margin="20,0,0,0" Content="Puštanje filma po želji"                                   />
             </StackPanel>
             <TextBlock Text="Premijere" FontSize="20" Margin="10,0,0,0" />

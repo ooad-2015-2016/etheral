@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-02T23:39:57.798</Modified>
+      <Modified>2016-06-03T00:01:40.881</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\KinoProjekat.exe">
       <PackagePath>entrypoint\KinoProjekat.exe</PackagePath>
-      <Modified>2016-06-02T23:39:56.140</Modified>
+      <Modified>2016-06-03T00:01:39.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\Callisto\1.4.0\lib\netcore451\Callisto.dll">
       <PackagePath>Callisto.dll</PackagePath>
@@ -536,125 +536,125 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
-      <Modified>2016-06-02T22:44:08.304</Modified>
+      <Modified>2016-06-02T23:54:05.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Alice3.jpg">
       <PackagePath>Assets\Alice3.jpg</PackagePath>
-      <Modified>2016-06-02T23:13:39.625</Modified>
+      <Modified>2016-06-02T23:54:05.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\angryBirds.jpg">
       <PackagePath>Assets\angryBirds.jpg</PackagePath>
-      <Modified>2016-06-02T22:44:08.314</Modified>
+      <Modified>2016-06-02T23:54:05.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\angryBirds1.jpg">
       <PackagePath>Assets\angryBirds1.jpg</PackagePath>
-      <Modified>2016-06-02T22:44:08.334</Modified>
+      <Modified>2016-06-02T23:54:05.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\apok.jpg">
       <PackagePath>Assets\apok.jpg</PackagePath>
-      <Modified>2016-06-02T23:21:29.601</Modified>
+      <Modified>2016-06-02T23:54:05.899</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\apok2.jpg">
       <PackagePath>Assets\apok2.jpg</PackagePath>
-      <Modified>2016-06-02T23:30:51.433</Modified>
+      <Modified>2016-06-02T23:54:05.900</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\captainAmerica.jpg">
       <PackagePath>Assets\captainAmerica.jpg</PackagePath>
-      <Modified>2016-06-02T22:44:08.373</Modified>
+      <Modified>2016-06-02T23:54:05.903</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\cat.jpg">
       <PackagePath>Assets\cat.jpg</PackagePath>
-      <Modified>2016-06-02T23:36:55.516</Modified>
+      <Modified>2016-06-02T23:54:05.904</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\jpeg.jpg">
       <PackagePath>Assets\jpeg.jpg</PackagePath>
-      <Modified>2016-06-02T22:44:08.518</Modified>
+      <Modified>2016-06-02T23:54:05.905</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\jungle.jpg">
       <PackagePath>Assets\jungle.jpg</PackagePath>
-      <Modified>2016-06-02T23:25:10.716</Modified>
+      <Modified>2016-06-02T23:54:05.908</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\jungle2.jpg">
       <PackagePath>Assets\jungle2.jpg</PackagePath>
-      <Modified>2016-06-02T23:29:35.918</Modified>
+      <Modified>2016-06-02T23:54:05.909</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\komsije.jpg">
       <PackagePath>Assets\komsije.jpg</PackagePath>
-      <Modified>2016-06-02T23:30:05.529</Modified>
+      <Modified>2016-06-02T23:54:05.910</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Man.jpg">
       <PackagePath>Assets\Man.jpg</PackagePath>
-      <Modified>2016-06-02T23:17:09.767</Modified>
+      <Modified>2016-06-02T23:54:05.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Man2.jpg">
       <PackagePath>Assets\Man2.jpg</PackagePath>
-      <Modified>2016-06-02T23:31:24.391</Modified>
+      <Modified>2016-06-02T23:54:05.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\moneymonstersmall.jpg">
       <PackagePath>Assets\moneymonstersmall.jpg</PackagePath>
-      <Modified>2016-06-02T23:07:32.487</Modified>
+      <Modified>2016-06-02T23:54:05.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\mothersDay.jpg">
       <PackagePath>Assets\mothersDay.jpg</PackagePath>
-      <Modified>2016-06-02T22:44:08.523</Modified>
+      <Modified>2016-06-02T23:54:05.917</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\ourKindOfTraitor.jpg">
       <PackagePath>Assets\ourKindOfTraitor.jpg</PackagePath>
-      <Modified>2016-06-02T22:44:08.524</Modified>
+      <Modified>2016-06-02T23:54:05.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\pocetna.jpg">
       <PackagePath>Assets\pocetna.jpg</PackagePath>
-      <Modified>2016-06-02T22:44:08.590</Modified>
+      <Modified>2016-06-02T23:54:05.959</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\warcraft.jpg">
       <PackagePath>Assets\warcraft.jpg</PackagePath>
-      <Modified>2016-06-02T22:46:17.692</Modified>
+      <Modified>2016-06-02T23:54:05.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\warcraft2.jpg">
       <PackagePath>Assets\warcraft2.jpg</PackagePath>
-      <Modified>2016-06-02T23:32:37.032</Modified>
+      <Modified>2016-06-02T23:54:05.964</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\nice.png">
       <PackagePath>Assets\nice.png</PackagePath>
-      <Modified>2016-06-02T23:39:39.632</Modified>
+      <Modified>2016-06-02T23:54:05.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2016-06-02T22:44:08.305</Modified>
+      <Modified>2016-06-02T23:54:05.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-02T22:44:08.307</Modified>
+      <Modified>2016-06-02T23:54:05.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-02T22:44:08.309</Modified>
+      <Modified>2016-06-02T23:54:05.893</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-02T22:44:08.310</Modified>
+      <Modified>2016-06-02T23:54:05.893</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-02T22:44:08.311</Modified>
+      <Modified>2016-06-02T23:54:05.894</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-02T22:44:08.311</Modified>
+      <Modified>2016-06-02T23:54:05.895</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-02T22:44:08.312</Modified>
+      <Modified>2016-06-02T23:54:05.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2016-06-02T22:44:09.453</Modified>
+      <Modified>2016-06-02T23:54:07.783</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\EntityFramework.Commands\7.0.0-beta6\lib\net45\EntityFramework.Commands.xml">
       <PackagePath>EntityFramework.Commands.xml</PackagePath>
@@ -666,7 +666,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\KinoProjekat.xr.xml">
       <PackagePath>KinoProjekat.xr.xml</PackagePath>
-      <Modified>2016-06-02T23:01:27.908</Modified>
+      <Modified>2016-06-02T23:59:13.389</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -678,11 +678,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-06-02T23:39:57.104</Modified>
+      <Modified>2016-06-03T00:01:40.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Core\KinoProjekat.exe">
       <PackagePath>KinoProjekat.exe</PackagePath>
-      <Modified>2016-06-02T23:39:57.794</Modified>
+      <Modified>2016-06-03T00:01:40.841</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
