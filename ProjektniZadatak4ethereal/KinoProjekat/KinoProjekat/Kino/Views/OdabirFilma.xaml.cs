@@ -138,6 +138,7 @@ namespace KinoProjekat.Kino.Views
         {
             Film film = ((Film)e.ClickedItem);
             this.Frame.Navigate(typeof(Detalji), film);
+            Film film1;
         }
 
         /*private void buttonNazad_Click(object sender, RoutedEventArgs e)
