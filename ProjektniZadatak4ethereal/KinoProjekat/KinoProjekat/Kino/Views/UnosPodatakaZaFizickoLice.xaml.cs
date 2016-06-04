@@ -15,6 +15,8 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using KinoProjekat.Kino.Models;
 using Windows.UI.Core;
+using Windows.Storage;
+using System.Net;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -47,7 +49,7 @@ namespace KinoProjekat.Kino.Views
             SystemNavigationManager.GetForCurrentView().BackRequested -= UnosPodatakaZaFizickoLice_BackRequested;
         }
 
-        private void buttonName_Click(object sender, RoutedEventArgs e)
+        private async void buttonName_Click(object sender, RoutedEventArgs e)
         {
 
 
@@ -75,7 +77,7 @@ namespace KinoProjekat.Kino.Views
                     Telefon = textBoxTelefon.Text,
 
                 };
-                db.SveLica.Add(contact);
+                db.Lice.Add(contact);
                 //SaveChanges obavezno da se reflektuju izmjene u bazi, tek tada dolazi do komunikacije
 
                 db.SaveChanges();
@@ -86,11 +88,78 @@ namespace KinoProjekat.Kino.Views
                 textBoxTelefon.Text = string.Empty;
                 textBoxPotvrdaEmail.Text = string.Empty;
 
+                string messageBody;
+                messageBody = "Kod je bla bla bla";
+
+                string mail;
+                mail = textBoxEmail.Text;
+                SendEmailOverMailTo(mail, "", " ", "Rezervacija", messageBody);
+
+                ////////////////////////////////////////////////////////////////////////////////////////
+               /* Windows.ApplicationModel.Contacts.Contact recipient;
+                
+                //StorageFile attachmentFile;
+                //var emailMessage = new Windows.ApplicationModel.Email.EmailMessage();
+                //emailMessage.Body = messageBody;
+
+                if (attachmentFile != null)
+                /{
+                    var stream = Windows.Storage.Streams.RandomAccessStreamReference.CreateFromFile(attachmentFile);
+
+                    var attachment = new Windows.ApplicationModel.Email.EmailAttachment(atachmentFile.Name,
+                        stream);
+
+                    emailMessage.Attachments.Add(attachment);
+                }
+
+               var email = recipient.Emails.FirstOrDefault<Windows.ApplicationModel.Contacts.ContactEmail>();
+               
+                if (email != null)
+
+                {
+                    var emailRecipient = new Windows.ApplicationModel.Email.EmailRecipient(email.Address);
+                    emailMessage.To.Add(emailRecipient);
+                }
+
+                await Windows.ApplicationModel.Email.EmailManager.ShowComposeNewEmailAsync(emailMessage);*/
+
+                ////////////////////////////////////////////////////////////////////////////////////////
             }
 
 
         }
-        
+        public static async void SendEmailOverMailTo(string recipient, string cc, string bcc, string subject, string body)
+        {
+            /*if (String.IsNullOrEmpty(recipient))
+            {
+                throw new ArgumentException("recipient must not be null or emtpy");
+            }
+            if (String.IsNullOrEmpty(subject))
+            {
+                throw new ArgumentException("subject must not be null or emtpy");
+            }
+            if (String.IsNullOrEmpty(body))
+            {
+                throw new ArgumentException("body must not be null or emtpy");
+            }*/
+
+            // Encode subject and body of the email so that it at least largely 
+            // corresponds to the mailto protocol (that expects a percent encoding 
+            // for certain special characters)
+            string encodedSubject = WebUtility.UrlEncode(subject).Replace("+", " ");
+            string encodedBody = WebUtility.UrlEncode(body).Replace("+", " ");
+
+            // Create a mailto URI
+            Uri mailtoUri = new Uri("mailto:" + recipient + "?subject=" +
+               encodedSubject +
+               (String.IsNullOrEmpty(cc) == false ? "&cc=" + cc : null) +
+               (String.IsNullOrEmpty(bcc) == false ? "&bcc=" + bcc : null) +
+               "&body=" + encodedBody);
+
+            // Execute the default application for the mailto protocol
+            await Windows.System.Launcher.LaunchUriAsync(mailtoUri);
+        }
+
         /*private void buttonNazad_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(OdabirFilma));

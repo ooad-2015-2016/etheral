@@ -47,17 +47,18 @@ namespace KinoProjekat
                 DefaultPodaciRezervacija.Initialize(db3);
             }
 
-         /*   using (var db1 = new LiceDbContext())
+          using (var db1 = new LiceDbContext())
             {
                 db1.Database.ApplyMigrations();
                 DefaultPodaci.Initialize(db1);
             }
-            using (var db2 = new FilmDbContext())
+           /* using (var db2 = new FilmDbContext())
             {
                 db2.Database.ApplyMigrations();
                 DefaultPodaciFilm.Initialize(db2);
             }
             */
+            
         }
 
         /// <summary>

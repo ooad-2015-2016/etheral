@@ -74,7 +74,7 @@ namespace KinoProjekat.Kino.Views
                     Telefon = textBoxTelefon.Text,
 
                 };
-                db.SveLica.Add(contact);
+                db.Lice.Add(contact);
                 //SaveChanges obavezno da se reflektuju izmjene u bazi, tek tada dolazi do komunikacije
 
                 db.SaveChanges();

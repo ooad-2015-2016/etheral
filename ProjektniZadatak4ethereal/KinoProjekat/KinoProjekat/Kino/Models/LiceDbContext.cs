@@ -12,7 +12,7 @@ namespace KinoProjekat.Kino.Models
 {
     class LiceDbContext : DbContext
     {
-        public DbSet<Lice> SveLica { get; set; }
+        public DbSet<Lice> Lice{ get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

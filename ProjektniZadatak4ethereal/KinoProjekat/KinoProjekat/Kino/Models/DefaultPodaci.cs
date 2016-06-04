@@ -11,9 +11,9 @@ namespace KinoProjekat.Kino.Models
 
         public static void Initialize(LiceDbContext context)
         {
-            if (!context.SveLica.Any())
+            if (!context.Lice.Any())
             {
-                context.SveLica.AddRange(
+                context.Lice.AddRange(
                 new Lice()
                 {
                     Ime="Niko",

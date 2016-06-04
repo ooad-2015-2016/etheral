@@ -32,7 +32,7 @@ namespace KinoProjekat.Kino.Views
         {
             using (var db = new LiceDbContext())
             {
-                listViewKorisnici.ItemsSource = db.SveLica.ToList();
+                listViewKorisnici.ItemsSource = db.Lice.ToList();
             }
         }
 
@@ -51,11 +51,11 @@ namespace KinoProjekat.Kino.Views
 
             using (var db = new LiceDbContext())
             {
-                db.SveLica.Remove((Lice)listViewKorisnici.ItemFromContainer(dep));
+                db.Lice.Remove((Lice)listViewKorisnici.ItemFromContainer(dep));
 
                 db.SaveChanges();
 
-                listViewKorisnici.ItemsSource = db.SveLica.OrderBy(c => c.Prezime).ToList();
+                listViewKorisnici.ItemsSource = db.Lice.OrderBy(c => c.Prezime).ToList();
 
 
             }
