@@ -39,6 +39,7 @@ namespace KinoProjekat.Kino.Views
         {
             this.Frame.Navigate(typeof(ZavrsnaForma));
 
+
         }
 
         private void s1_PointerPressed(object sender, PointerRoutedEventArgs e)

@@ -7,11 +7,11 @@ using KinoProjekat.Kino.Models;
 namespace KinoProjekatMigrations
 {
     [ContextType(typeof(FilmDbContext))]
-    partial class FiilmMigration
+    partial class FilmMigration
     {
         public override string Id
         {
-            get { return "20160602225351_FiilmMigration"; }
+            get { return "20160604110336_FilmMigration"; }
         }
 
         public override string ProductVersion

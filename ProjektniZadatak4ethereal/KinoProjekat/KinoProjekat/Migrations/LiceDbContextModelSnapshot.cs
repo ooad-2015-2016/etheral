@@ -19,8 +19,6 @@ namespace KinoProjekatMigrations
                     b.Property<int>("LiceId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Adresa");
-
                     b.Property<string>("Email");
 
                     b.Property<string>("Ime");

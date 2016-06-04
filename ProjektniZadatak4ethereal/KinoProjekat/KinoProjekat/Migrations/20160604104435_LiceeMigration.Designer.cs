@@ -7,11 +7,11 @@ using KinoProjekat.Kino.Models;
 namespace KinoProjekatMigrations
 {
     [ContextType(typeof(LiceDbContext))]
-    partial class InitialMigration
+    partial class LiceeMigration
     {
         public override string Id
         {
-            get { return "20160423221615_InitialMigration"; }
+            get { return "20160604104435_LiceeMigration"; }
         }
 
         public override string ProductVersion
@@ -28,8 +28,6 @@ namespace KinoProjekatMigrations
                 {
                     b.Property<int>("LiceId")
                         .ValueGeneratedOnAdd();
-
-                    b.Property<string>("Adresa");
 
                     b.Property<string>("Email");
 

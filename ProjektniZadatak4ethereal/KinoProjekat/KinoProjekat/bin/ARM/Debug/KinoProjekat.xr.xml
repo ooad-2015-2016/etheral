@@ -142,12 +142,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="IsMultiSelectCheckBoxEnabled" />
-      <RootProperty Name="Items" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem">
-      <RootProperty Name="Content" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="FontSize" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
       <RootProperty Name="StartPoint" />
@@ -180,6 +174,7 @@
       <RootProperty Name="Content" />
       <RootProperty Name="IsChecked" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Name" />
       <RootEvent Name="Checked" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.FlipView">
@@ -196,8 +191,8 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Margin" />
       <RootProperty Name="ItemsSource" />
-      <RootProperty Name="ItemTemplate" />
       <RootProperty Name="IsItemClickEnabled" />
+      <RootProperty Name="ItemTemplate" />
       <RootEvent Name="SelectionChanged" />
       <RootEvent Name="ItemClick" />
     </RootType>

@@ -39,17 +39,25 @@ namespace KinoProjekat
             this.InitializeComponent();
             this.Suspending += OnSuspending;
 
-            using (var db = new LiceDbContext())
+            
+            
+            using (var db3 = new RezervacijaDbContext())
             {
-                db.Database.ApplyMigrations();
-                DefaultPodaci.Initialize(db);
+                db3.Database.ApplyMigrations();
+                DefaultPodaciRezervacija.Initialize(db3);
             }
 
-
-            
-
-
-
+         /*   using (var db1 = new LiceDbContext())
+            {
+                db1.Database.ApplyMigrations();
+                DefaultPodaci.Initialize(db1);
+            }
+            using (var db2 = new FilmDbContext())
+            {
+                db2.Database.ApplyMigrations();
+                DefaultPodaciFilm.Initialize(db2);
+            }
+            */
         }
 
         /// <summary>

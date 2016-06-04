@@ -15,7 +15,7 @@ namespace KinoProjekat.Kino.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string dataBaseFilePath = "Ooadbaza.db";
+            string dataBaseFilePath = "BazaZaFilmove.db";
             try
             {
                 dataBaseFilePath = Path.Combine(ApplicationData.Current.LocalFolder.Path, dataBaseFilePath);

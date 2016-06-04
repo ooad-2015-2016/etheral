@@ -101,6 +101,8 @@
     <Compile Include="FolderPravnoLice\UnosPodatakaOOsobiKojaZastupaPravnoLice.xaml.cs" />
     <Compile Include="FolderPravnoLice\UnosPodatakaZaPravnoLice.xaml.cs" />
     <Compile Include="Kino\Models\DefaultPodaci.cs" />
+    <Compile Include="Kino\Models\DefaultPodaciFilm.cs" />
+    <Compile Include="Kino\Models\DefaultPodaciRezervacija.cs" />
     <Compile Include="Kino\Models\Film.cs" />
     <Compile Include="Kino\Models\FilmDbContext.cs" />
     <Compile Include="Kino\Models\Firma.cs" />
@@ -125,6 +127,9 @@
     <Compile Include="Kino\Models\VelikaSalaDbContext.cs" />
     <Compile Include="Kino\Models\Zaposlenik.cs" />
     <Compile Include="Kino\Models\ZaposlenikDbContext.cs" />
+    <Compile Include="Kino\Views\Baza.xaml.cs">
+      <DependentUpon>Baza.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Kino\Views\Detalji.xaml.cs">
       <DependentUpon>Detalji.xaml</DependentUpon>
     </Compile>
@@ -168,10 +173,6 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20160423221615_InitialMigration.cs" />
-    <Compile Include="Migrations\20160423221615_InitialMigration.designer.cs">
-      <DependentUpon>20160423221615_InitialMigration.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\20160424233106_RezervacijaMigration.cs" />
     <Compile Include="Migrations\20160424233106_RezervacijaMigration.designer.cs">
       <DependentUpon>20160424233106_RezervacijaMigration.cs</DependentUpon>
@@ -184,17 +185,21 @@
     <Compile Include="Migrations\20160514131708_Firma.designer.cs">
       <DependentUpon>20160514131708_Firma.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20160602225351_FiilmMigration.cs" />
-    <Compile Include="Migrations\20160602225351_FiilmMigration.designer.cs">
-      <DependentUpon>20160602225351_FiilmMigration.cs</DependentUpon>
+    <Compile Include="Migrations\20160604104435_LiceeMigration.cs" />
+    <Compile Include="Migrations\20160604104435_LiceeMigration.designer.cs">
+      <DependentUpon>20160604104435_LiceeMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20160604110336_FilmMigration.cs" />
+    <Compile Include="Migrations\20160604110336_FilmMigration.designer.cs">
+      <DependentUpon>20160604110336_FilmMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\FilmDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\FirmaDbContextModelSnapshot.cs" />
+    <Compile Include="Migrations\LiceDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\SalaMigration.cs" />
     <Compile Include="Migrations\SalaMigration.designer.cs">
       <DependentUpon>SalaMigration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\LiceDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\RezervacijaDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\SalaDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\ZaposlenikDbContextModelSnapshot.cs" />
@@ -248,6 +253,10 @@
     <Page Include="FolderPravnoLice\UnosPodatakaZaPravnoLice.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Kino\Views\Baza.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Kino\Views\Detalji.xaml">
       <SubType>Designer</SubType>

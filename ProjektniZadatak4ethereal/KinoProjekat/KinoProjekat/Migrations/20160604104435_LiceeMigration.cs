@@ -5,7 +5,7 @@ using Microsoft.Data.Entity.Migrations.Operations;
 
 namespace KinoProjekatMigrations
 {
-    public partial class InitialMigration : Migration
+    public partial class LiceeMigration : Migration
     {
         public override void Up(MigrationBuilder migration)
         {
@@ -13,9 +13,8 @@ namespace KinoProjekatMigrations
                 name: "Lice",
                 columns: table => new
                 {
-                    LiceId = table.Column(type: "INTEGER", nullable: false),
-                        //.Annotation("Sqlite:Autoincrement", true),
-                    Adresa = table.Column(type: "TEXT", nullable: true),
+                    LiceId = table.Column(type: "INTEGER", nullable: false)
+                      ,//  .Annotation("Sqlite:Autoincrement", true),
                     Email = table.Column(type: "TEXT", nullable: true),
                     Ime = table.Column(type: "TEXT", nullable: true),
                     Prezime = table.Column(type: "TEXT", nullable: true),

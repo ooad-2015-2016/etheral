@@ -49,10 +49,7 @@
         </StackPanel>
         <StackPanel Grid.Column="2">
             <TextBlock Text="Termini prikazivanja:" Margin="0,10,0,0" Foreground="#FFC58634" FontSize="20" FontWeight="SemiBold" />
-            <ListView x:ConnectionId='5' x:Name="listViewTermini" IsMultiSelectCheckBoxEnabled="False">
-                <ListViewItem Content="15:25" Foreground="#FFC58634" FontSize="15" />
-                <ListViewItem Content="17:30" Foreground="#FFC58634" FontSize="15" />
-            </ListView>
+            <ListView x:ConnectionId='5' x:Name="listViewTermini" IsMultiSelectCheckBoxEnabled="False"/>
         </StackPanel>
 
         <Grid Grid.Row="1" Grid.ColumnSpan="3" Margin="41,0,-41,0">

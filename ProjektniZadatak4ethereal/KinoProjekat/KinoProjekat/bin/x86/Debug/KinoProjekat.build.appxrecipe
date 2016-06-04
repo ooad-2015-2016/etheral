@@ -9,16 +9,16 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>f17bdfa6-8e8d-4f86-a585-0db419177c1e</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\KinoProjekat.exe">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\KinoProjekat.exe">
       <PackagePath>entrypoint\KinoProjekat.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\Callisto\1.4.0\lib\netcore451\Callisto.dll">
@@ -399,97 +399,97 @@
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\ApplicationInsights.config">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Alice3.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Alice3.jpg">
       <PackagePath>Assets\Alice3.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\angryBirds.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\angryBirds.jpg">
       <PackagePath>Assets\angryBirds.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\angryBirds1.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\angryBirds1.jpg">
       <PackagePath>Assets\angryBirds1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\apok.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\apok.jpg">
       <PackagePath>Assets\apok.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\apok2.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\apok2.jpg">
       <PackagePath>Assets\apok2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\captainAmerica.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\captainAmerica.jpg">
       <PackagePath>Assets\captainAmerica.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\cat.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\cat.jpg">
       <PackagePath>Assets\cat.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\jpeg.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\jpeg.jpg">
       <PackagePath>Assets\jpeg.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\jungle.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\jungle.jpg">
       <PackagePath>Assets\jungle.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\jungle2.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\jungle2.jpg">
       <PackagePath>Assets\jungle2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\komsije.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\komsije.jpg">
       <PackagePath>Assets\komsije.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Man.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Man.jpg">
       <PackagePath>Assets\Man.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Man2.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Man2.jpg">
       <PackagePath>Assets\Man2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\moneymonstersmall.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\moneymonstersmall.jpg">
       <PackagePath>Assets\moneymonstersmall.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\mothersDay.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\mothersDay.jpg">
       <PackagePath>Assets\mothersDay.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\ourKindOfTraitor.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\ourKindOfTraitor.jpg">
       <PackagePath>Assets\ourKindOfTraitor.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\pocetna.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\pocetna.jpg">
       <PackagePath>Assets\pocetna.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\warcraft.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\warcraft.jpg">
       <PackagePath>Assets\warcraft.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\warcraft2.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\warcraft2.jpg">
       <PackagePath>Assets\warcraft2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\nice.png">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\nice.png">
       <PackagePath>Assets\nice.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\EntityFramework.Commands\7.0.0-beta6\lib\net45\EntityFramework.Commands.xml">
@@ -498,7 +498,7 @@
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\EntityFramework.Commands\7.0.0-beta6\lib\net45\EntityFramework.Commands.dll">
       <PackagePath>EntityFramework.Commands.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\KinoProjekat.xr.xml">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\KinoProjekat.xr.xml">
       <PackagePath>KinoProjekat.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
@@ -507,10 +507,10 @@
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\Callisto\1.4.0\lib\netcore451\Callisto\themes\Generic.xbf">
       <PackagePath>Callisto\themes\Generic.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Plizzzz\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Core\KinoProjekat.exe">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\HEJJJ\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Core\KinoProjekat.exe">
       <PackagePath>KinoProjekat.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -17,6 +17,16 @@ namespace KinoProjekat.Kino.Models
         NacinPlacanja placanje;
         StatusRezervacije status;
 
+
+        public Rezervacija() { }
+        public Rezervacija(int brojRezervacije,NacinPlacanja placanje,StatusRezervacije status)
+         
+        {
+            this.brojRezervacije = brojRezervacije;
+            this.placanje = placanje;
+            this.status = status;
+        }
+
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Key]
         public int BrojRezervacije { get; set; }
