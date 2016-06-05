@@ -51,5 +51,18 @@ Podaci za detaljni **pregled informacija o filmovima** se preuzimaju sa imdb.com
 3. Menadžer je osoba koja ažurira repertoar i bazu podataka.
 
 
+UPUTSTVO:
+
+Baza: SQLite, local
+Validacija ispostovana kod QR koda, kod unosa podataka za lica
+https://github.com/ooad-2015-2016/ethereal/blob/master/ProjektniZadatak4ethereal/KinoProjekat/KinoProjekat/Kino/Views/Otkazivanje.xaml.cs
+https://github.com/ooad-2015-2016/ethereal/blob/master/ProjektniZadatak4ethereal/KinoProjekat/KinoProjekat/Kino/Views/UnosPodatakaZaFizickoLice.xaml.cs
+Koristi se Mail servis
+https://github.com/ooad-2015-2016/ethereal/blob/master/ProjektniZadatak4ethereal/KinoProjekat/KinoProjekat/Kino/Views/UnosPodatakaZaFizickoLice.xaml.cs
+GPS lokator
+https://github.com/ooad-2015-2016/ethereal/blob/master/ProjektniZadatak4ethereal/KinoProjekat/KinoProjekat/Kino/Views/UnosPodatakaZaFizickoLice.xaml.cs
+https://github.com/ooad-2015-2016/ethereal/blob/master/ProjektniZadatak4ethereal/KinoProjekat/KinoProjekat/Kino/Views/GPSLokator.xaml
+
+
 
 
