@@ -19,8 +19,18 @@
             <TextBlock x:Name="textBlockNaslov" Text="Help" FontSize="46"  Foreground="AntiqueWhite"  FontFamily="DengXian"  FontWeight="Bold" RelativePanel.AlignHorizontalCenterWithPanel="True" FontStretch="UltraExpanded" />
             <TextBlock x:Name="textBlockAutori" Text="by ethereal" Foreground="Beige" FontSize="34" RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="textBlockNaslov" FontFamily="Segoe Print"/>
             <StackPanel  RelativePanel.Below="textBlockAutori" Margin="0,20,0,-45" Width="640">
-                <TextBlock x:Name="textBlockOpis1" Text="Ova aplikacija služi za online rezervaciju karata ili rezervaciju sala u kinu Multiplex Sveg. Pogledajte najnovije filmske hitove!"
-                       RelativePanel.Below="textBlockAutori" Foreground="Honeydew"  FontFamily="DengXian" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" Height="142" Margin="12,0,11,0" />
+                <TextBlock x:Name="textBlockOpis1" Text="Baza: SQLite, local
+Validacija ispostovana kod QR koda, kod unosa podataka za lica
+https://github.com/ooad-2015-2016/ethereal/blob/master/ProjektniZadatak4ethereal/KinoProjekat/KinoProjekat/Kino/Views/Otkazivanje.xaml.cs
+https://github.com/ooad-2015-2016/ethereal/blob/master/ProjektniZadatak4ethereal/KinoProjekat/KinoProjekat/Kino/Views/UnosPodatakaZaFizickoLice.xaml.cs
+Koristi se Mail servis
+https://github.com/ooad-2015-2016/ethereal/blob/master/ProjektniZadatak4ethereal/KinoProjekat/KinoProjekat/Kino/Views/UnosPodatakaZaFizickoLice.xaml.cs
+GPS lokator
+https://github.com/ooad-2015-2016/ethereal/blob/master/ProjektniZadatak4ethereal/KinoProjekat/KinoProjekat/Kino/Views/UnosPodatakaZaFizickoLice.xaml.cs
+https://github.com/ooad-2015-2016/ethereal/blob/master/ProjektniZadatak4ethereal/KinoProjekat/KinoProjekat/Kino/Views/GPSLokator.xaml
+
+"
+                       RelativePanel.Below="textBlockAutori" Foreground="Honeydew"  FontFamily="DengXian" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" Height="436" Margin="10,0,0,0" Width="630" />
                 <TextBlock x:Name="textBlockOpis3" Text="Pridružite se Multiplex porodici!"  Foreground="AntiqueWhite"  HorizontalAlignment="Center" FontSize="24" FontFamily="DengXian" Height="59" Margin="157,0"/>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
 
