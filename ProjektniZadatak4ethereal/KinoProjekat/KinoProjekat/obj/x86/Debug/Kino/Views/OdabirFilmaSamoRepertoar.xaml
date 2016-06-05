@@ -16,17 +16,12 @@
         </Grid.ColumnDefinitions>
         <StackPanel Margin="0,0,0,0">
             <StackPanel Orientation="Horizontal" >
-                <Button x:ConnectionId='15'  x:Name="buttonNazad" FontFamily="Segoe MDL2 Assets" Content="&#xE0C4;" Margin="20,20,0,0" HorizontalAlignment="Left" Background="#FFDCC19F"  FontSize="20"  BorderBrush="LightGray"                           Width="90"/>
-                <TextBlock Text="Odabir filma" FontSize="24" Margin="30,20,0,0" HorizontalAlignment="right" Width="973"/>
+                <Button x:ConnectionId='12'  x:Name="buttonNazad" FontFamily="Segoe MDL2 Assets" Content="&#xE0C4;" Margin="20,20,0,0" HorizontalAlignment="Left" Background="#FFDCC19F"  FontSize="20"  BorderBrush="LightGray"                           Width="90"/>
+                <TextBlock Text="Repertoar" FontSize="24" Margin="30,20,0,0" HorizontalAlignment="right" Width="973"/>
             </StackPanel>
-            <TextBlock Text="Odaberite jednu od opcija:" FontSize="15" Margin="10,0,0,0" />
-            <RadioButton x:ConnectionId='2' GroupName="radioButtonGrupa" Content="Fizičko lice" IsChecked="True" Margin="10,0,0,0"                               />
-            <StackPanel Orientation="Horizontal" Margin="10,0,0,20">
-                <RadioButton x:ConnectionId='13' GroupName="radioButtonGrupa" Content="Pravno lice (kompanija / firma)"                                 />
-                <CheckBox x:ConnectionId='14' x:Name="checkBoxFilmPoZelji" Margin="20,0,0,0" Content="Puštanje filma po želji"                                   />
-            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="10,0,0,20"/>
             <TextBlock Text="Premijere" FontSize="20" Margin="10,0,0,0" />
-            <FlipView x:ConnectionId='3' x:Name="flipViewPremijere" Height="200" Background="Transparent" >
+            <FlipView x:ConnectionId='2' x:Name="flipViewPremijere" Height="200" Background="Transparent" >
                 <FlipView.ItemTemplate>
                     <DataTemplate>
                         <Grid >
@@ -58,45 +53,43 @@
                             FlipView="{Binding ElementName=flipViewPremijere}">
             </callisto:FlipViewIndicator>
             <TextBlock Text="Ponuda" FontSize="20" Margin="10,10,0,0" />
-            <GridView x:ConnectionId='4' x:Name="gridViewPonuda" 
+            <GridView x:ConnectionId='3' x:Name="gridViewPonuda" 
                        Height="170" Background="Transparent" 
                        Margin="10,0,10,0" 
                                                      
-                                                                         
-                                                       
                        IsItemClickEnabled="True"
                       >
                 <GridView.ItemTemplate>
                     <DataTemplate                       >
 
 
-                        <Grid x:ConnectionId='5'>
+                        <Grid x:ConnectionId='4'>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="1*" />
                             </Grid.ColumnDefinitions>
                             <StackPanel Orientation="Horizontal">
-                                <Image x:ConnectionId='6'                         Width="170" Height="170" Stretch="Uniform" />
+                                <Image x:ConnectionId='5'                         Width="170" Height="170" Stretch="Uniform" />
                                 <StackPanel Margin="5,0,0,0">
-                                    <TextBlock x:ConnectionId='7'                       FontSize="20" Foreground="#FFC58634" />
+                                    <TextBlock x:ConnectionId='6'                       FontSize="20" Foreground="#FFC58634" />
                                     <StackPanel Orientation="Horizontal">
                                         <TextBlock Text="Originalni naslov:" FontSize="15" Margin="0,0,5,0" FontWeight="SemiBold" />
-                                        <TextBlock x:ConnectionId='12'                                FontSize="15" />
+                                        <TextBlock x:ConnectionId='11'                                FontSize="15" />
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
                                         <TextBlock Text="Režiser:" FontSize="15" Margin="0,0,5,0" FontWeight="SemiBold" />
-                                        <TextBlock x:ConnectionId='11'                         FontSize="15" />
+                                        <TextBlock x:ConnectionId='10'                         FontSize="15" />
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
                                         <TextBlock Text="Uloge:" FontSize="15" Margin="0,0,5,0" FontWeight="SemiBold" />
-                                        <TextBlock x:ConnectionId='10'                       FontSize="15" />
+                                        <TextBlock x:ConnectionId='9'                       FontSize="15" />
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
                                         <TextBlock Text="Žanr:" FontSize="15" Margin="0,0,5,0" FontWeight="SemiBold" />
-                                        <TextBlock x:ConnectionId='9'                      FontSize="15" />
+                                        <TextBlock x:ConnectionId='8'                      FontSize="15" />
                                     </StackPanel>
                                     <StackPanel >
                                         <TextBlock Text="IMDB:" FontSize="15" Foreground="#FFC58634" Margin="0,5,0,0"  />
-                                        <HyperlinkButton x:ConnectionId='8' x:Name="buttonLink"                         FontSize="15" />
+                                        <HyperlinkButton x:ConnectionId='7' x:Name="buttonLink"                         FontSize="15" />
                                     </StackPanel>
                                 </StackPanel>
                             </StackPanel>

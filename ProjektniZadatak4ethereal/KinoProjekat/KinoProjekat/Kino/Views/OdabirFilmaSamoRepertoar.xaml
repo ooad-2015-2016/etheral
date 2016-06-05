@@ -17,14 +17,9 @@
         <StackPanel Margin="0,0,0,0">
             <StackPanel Orientation="Horizontal" >
                 <Button  x:Name="buttonNazad" FontFamily="Segoe MDL2 Assets" Content="&#xE0C4;" Margin="20,20,0,0" HorizontalAlignment="Left" Background="#FFDCC19F"  FontSize="20"  BorderBrush="LightGray" Click="buttonNazad_Click" Width="90"/>
-                <TextBlock Text="Odabir filma" FontSize="24" Margin="30,20,0,0" HorizontalAlignment="right" Width="973"/>
+                <TextBlock Text="Repertoar" FontSize="24" Margin="30,20,0,0" HorizontalAlignment="right" Width="973"/>
             </StackPanel>
-            <TextBlock Text="Odaberite jednu od opcija:" FontSize="15" Margin="10,0,0,0" />
-            <RadioButton GroupName="radioButtonGrupa" Content="Fizičko lice" IsChecked="True" Margin="10,0,0,0" Checked="RadioButton_Checked" />
-            <StackPanel Orientation="Horizontal" Margin="10,0,0,20">
-                <RadioButton GroupName="radioButtonGrupa" Content="Pravno lice (kompanija / firma)" Checked="RadioButton_Checked_1" />
-                <CheckBox x:Name="checkBoxFilmPoZelji" Margin="20,0,0,0" Content="Puštanje filma po želji" Click="checkBoxFilmPoZelji_Click" />
-            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="10,0,0,20"/>
             <TextBlock Text="Premijere" FontSize="20" Margin="10,0,0,0" />
             <FlipView x:Name="flipViewPremijere" Height="200" Background="Transparent" >
                 <FlipView.ItemTemplate>
@@ -62,8 +57,6 @@
                        Height="170" Background="Transparent" 
                        Margin="10,0,10,0" 
                        ItemsSource="{x:Bind Filmovi}"
-                       SelectionChanged="gridViewPonuda_SelectionChanged"
-                       ItemClick="GridView_ItemClick_1"
                        IsItemClickEnabled="True"
                       >
                 <GridView.ItemTemplate>

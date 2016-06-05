@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>f17bdfa6-8e8d-4f86-a585-0db419177c1e</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\obj\x86\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>1CD6CE7182F42A89E9ED8A674DC9E0E44CFE332DAD22A57D812A96503EF46DAB</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>f17bdfa6-8e8d-4f86-a585-0db419177c1e_1.0.0.0_x86__4sdaedqydyjdm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>f17bdfa6-8e8d-4f86-a585-0db419177c1e_4sdaedqydyjdm!App</RegisteredUserModeAppID>
@@ -19,16 +19,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-04T22:31:11.020</Modified>
+      <Modified>2016-06-05T17:03:24.822</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\KinoProjekat.exe">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\KinoProjekat.exe">
       <PackagePath>entrypoint\KinoProjekat.exe</PackagePath>
-      <Modified>2016-06-04T22:31:09.832</Modified>
+      <Modified>2016-06-05T17:03:23.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ena\.nuget\packages\Callisto\1.4.0\lib\netcore451\Callisto.dll">
       <PackagePath>Callisto.dll</PackagePath>
@@ -534,127 +534,127 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T21:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\ApplicationInsights.config">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
-      <Modified>2016-06-04T14:02:46.954</Modified>
+      <Modified>2016-06-05T16:06:23.800</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Alice3.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Alice3.jpg">
       <PackagePath>Assets\Alice3.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:46.981</Modified>
+      <Modified>2016-06-05T16:06:24.624</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\angryBirds.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\angryBirds.jpg">
       <PackagePath>Assets\angryBirds.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:47.233</Modified>
+      <Modified>2016-06-05T16:06:25.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\angryBirds1.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\angryBirds1.jpg">
       <PackagePath>Assets\angryBirds1.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:47.235</Modified>
+      <Modified>2016-06-05T16:06:25.674</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\apok.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\apok.jpg">
       <PackagePath>Assets\apok.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:47.236</Modified>
+      <Modified>2016-06-05T16:06:25.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\apok2.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\apok2.jpg">
       <PackagePath>Assets\apok2.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:47.238</Modified>
+      <Modified>2016-06-05T16:06:25.714</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\captainAmerica.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\captainAmerica.jpg">
       <PackagePath>Assets\captainAmerica.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:47.241</Modified>
+      <Modified>2016-06-05T16:06:25.735</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\cat.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\cat.jpg">
       <PackagePath>Assets\cat.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:47.242</Modified>
+      <Modified>2016-06-05T16:06:25.737</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\jpeg.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\jpeg.jpg">
       <PackagePath>Assets\jpeg.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:47.243</Modified>
+      <Modified>2016-06-05T16:06:25.738</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\jungle.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\jungle.jpg">
       <PackagePath>Assets\jungle.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:47.246</Modified>
+      <Modified>2016-06-05T16:06:25.746</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\jungle2.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\jungle2.jpg">
       <PackagePath>Assets\jungle2.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:47.247</Modified>
+      <Modified>2016-06-05T16:06:25.748</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\komsije.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\komsije.jpg">
       <PackagePath>Assets\komsije.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:47.248</Modified>
+      <Modified>2016-06-05T16:06:25.749</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Man.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Man.jpg">
       <PackagePath>Assets\Man.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:46.984</Modified>
+      <Modified>2016-06-05T16:06:24.885</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Man2.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Man2.jpg">
       <PackagePath>Assets\Man2.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:47.023</Modified>
+      <Modified>2016-06-05T16:06:24.886</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\moneymonstersmall.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\moneymonstersmall.jpg">
       <PackagePath>Assets\moneymonstersmall.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:47.252</Modified>
+      <Modified>2016-06-05T16:06:25.776</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\mothersDay.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\mothersDay.jpg">
       <PackagePath>Assets\mothersDay.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:47.256</Modified>
+      <Modified>2016-06-05T16:06:25.843</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\ourKindOfTraitor.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\ourKindOfTraitor.jpg">
       <PackagePath>Assets\ourKindOfTraitor.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:47.259</Modified>
+      <Modified>2016-06-05T16:06:25.949</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\pocetna.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\pocetna.jpg">
       <PackagePath>Assets\pocetna.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:47.262</Modified>
+      <Modified>2016-06-05T16:06:25.952</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\warcraft.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\warcraft.jpg">
       <PackagePath>Assets\warcraft.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:47.263</Modified>
+      <Modified>2016-06-05T16:06:25.953</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\warcraft2.jpg">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\warcraft2.jpg">
       <PackagePath>Assets\warcraft2.jpg</PackagePath>
-      <Modified>2016-06-04T14:02:47.268</Modified>
+      <Modified>2016-06-05T16:06:25.989</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\nice.png">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\nice.png">
       <PackagePath>Assets\nice.png</PackagePath>
-      <Modified>2016-06-04T14:02:47.258</Modified>
+      <Modified>2016-06-05T16:06:25.909</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2016-06-04T14:02:46.982</Modified>
+      <Modified>2016-06-05T16:06:24.625</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-04T14:02:47.030</Modified>
+      <Modified>2016-06-05T16:06:24.887</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-04T14:02:47.031</Modified>
+      <Modified>2016-06-05T16:06:24.888</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-04T14:02:47.032</Modified>
+      <Modified>2016-06-05T16:06:24.889</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-04T14:02:47.200</Modified>
+      <Modified>2016-06-05T16:06:24.890</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-04T14:02:47.201</Modified>
+      <Modified>2016-06-05T16:06:24.891</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-04T14:02:47.201</Modified>
+      <Modified>2016-06-05T16:06:24.892</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2016-06-04T14:02:48.121</Modified>
+      <Modified>2016-06-05T16:06:26.416</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ena\.nuget\packages\EntityFramework.Commands\7.0.0-beta6\lib\net45\EntityFramework.Commands.xml">
       <PackagePath>EntityFramework.Commands.xml</PackagePath>
@@ -664,9 +664,9 @@
       <PackagePath>EntityFramework.Commands.dll</PackagePath>
       <Modified>2015-07-21T17:12:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\KinoProjekat.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\KinoProjekat.xr.xml">
       <PackagePath>KinoProjekat.xr.xml</PackagePath>
-      <Modified>2016-06-04T14:02:54.324</Modified>
+      <Modified>2016-06-05T16:14:24.865</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -676,13 +676,13 @@
       <PackagePath>Callisto\themes\Generic.xbf</PackagePath>
       <Modified>2013-10-24T09:21:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-06-04T22:27:29.083</Modified>
+      <Modified>2016-06-05T16:46:37.290</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ena\Desktop\OOAD\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Core\KinoProjekat.exe">
+    <AppxPackagedFile Include="C:\Users\Ena\Desktop\GGG\ethereal\ProjektniZadatak4ethereal\KinoProjekat\KinoProjekat\bin\x86\Debug\Core\KinoProjekat.exe">
       <PackagePath>KinoProjekat.exe</PackagePath>
-      <Modified>2016-06-04T22:31:11.016</Modified>
+      <Modified>2016-06-05T17:03:24.818</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

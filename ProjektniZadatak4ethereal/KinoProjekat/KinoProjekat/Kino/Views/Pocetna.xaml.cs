@@ -49,9 +49,9 @@ namespace KinoProjekat.Kino.Views
             this.Frame.Navigate(typeof(OdabirFilmaSamoRepertoar), true);
         }
 
-
-
-
-
+        private void HelpButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Help));
+        }
     }
 }

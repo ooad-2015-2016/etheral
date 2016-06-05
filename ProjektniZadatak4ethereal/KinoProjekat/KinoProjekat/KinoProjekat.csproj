@@ -139,6 +139,9 @@
     <Compile Include="Kino\Views\GPSLokator.xaml.cs">
       <DependentUpon>GPSLokator.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Kino\Views\Help.xaml.cs">
+      <DependentUpon>Help.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Kino\Views\MalaSala.xaml.cs">
       <DependentUpon>MalaSala.xaml</DependentUpon>
     </Compile>
@@ -267,6 +270,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Kino\Views\GPSLokator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kino\Views\Help.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

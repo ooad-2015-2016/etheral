@@ -41,7 +41,7 @@ namespace KinoProjekat.Kino.Views
             Filmovi = FilmManager.GetFilmovi();
 
             koji = true;
-            checkBoxFilmPoZelji.IsEnabled = false;
+            //checkBoxFilmPoZelji.IsEnabled = false;
 
         }
 
@@ -70,37 +70,13 @@ namespace KinoProjekat.Kino.Views
             });
 
         }
-        private void GridView_ItemClick_1(object sender, ItemClickEventArgs e)
-        {
-            Film film = ((Film)e.ClickedItem);
-            this.Frame.Navigate(typeof(DetaljiRepertoar), film);
-
-        }
-        private void RadioButton_Checked(object sender, RoutedEventArgs e)
-        {
-            koji = true;
-        }
-
-        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
-        {
-            koji = false;
-            checkBoxFilmPoZelji.IsEnabled = true;
-        }
-
-        private void gridViewPonuda_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-
-        private void checkBoxFilmPoZelji_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(UnosPodatakaZaPravnoLice));
-        }
+        
 
         private void buttonNazad_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Pocetna));
         }
+
+       
     }
 }

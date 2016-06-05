@@ -29,6 +29,7 @@
                 <Button x:Name="buttonRepertoar" Content="Repertoar" Foreground="AntiqueWhite" FontFamily="DengXian" FontSize="20" HorizontalAlignment="Center" Margin="0,10,0,0" FontWeight="Bold" Click="buttonRepertoar_Click" />
             </StackPanel>
             </RelativePanel>
+        <Button x:Name="HelpButton" Content="?" Grid.Column="1" Foreground="AntiqueWhite" FontFamily="DengXian" FontSize="30" HorizontalAlignment="Left" Margin="475,47,0,0" VerticalAlignment="Top" Height="40" Width="90" Click="HelpButton_Click" />
 
-        </Grid>
+    </Grid>
 </Page>
